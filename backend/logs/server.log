@@ -1,0 +1,676 @@
+info: Server started on port 65122 {"timestamp":"2024-07-28T22:46:48.218Z"}
+info: Connected to MongoDB {"timestamp":"2024-07-28T22:46:48.296Z"}
+info: Server started on port 65296 {"timestamp":"2024-07-28T22:48:53.952Z"}
+info: Connected to MongoDB {"timestamp":"2024-07-28T22:48:53.981Z"}
+info: Server started on port 55201 {"timestamp":"2024-07-29T00:32:40.738Z"}
+info: Connected to MongoDB {"timestamp":"2024-07-29T00:32:40.778Z"}
+info: Server started on port 55697 {"timestamp":"2024-07-29T00:36:46.636Z"}
+info: Connected to MongoDB {"timestamp":"2024-07-29T00:36:46.655Z"}
+info: Server started on port 50365 {"timestamp":"2024-07-29T00:44:04.759Z"}
+info: Connected to MongoDB {"timestamp":"2024-07-29T00:44:04.777Z"}
+info: Server started on port 51392 {"timestamp":"2024-07-29T00:56:19.183Z"}
+info: Connected to MongoDB {"timestamp":"2024-07-29T00:56:19.211Z"}
+info: Server started on port 52155 {"timestamp":"2024-07-29T01:05:42.108Z"}
+info: Connected to MongoDB {"timestamp":"2024-07-29T01:05:42.130Z"}
+info: Server started on port 54721 {"timestamp":"2024-07-29T08:09:08.283Z"}
+info: Connected to MongoDB {"timestamp":"2024-07-29T08:09:08.315Z"}
+info: Server started on port 57105 {"timestamp":"2024-07-29T08:12:46.138Z"}
+info: Connected to MongoDB {"timestamp":"2024-07-29T08:12:46.163Z"}
+info: Server started on port 60804 {"timestamp":"2024-07-29T08:26:23.769Z"}
+info: Connected to MongoDB {"timestamp":"2024-07-29T08:26:23.795Z"}
+info: Server started on port 61324 {"timestamp":"2024-07-29T08:28:26.394Z"}
+info: Connected to MongoDB {"timestamp":"2024-07-29T08:28:26.410Z"}
+info: Server started on port 61621 {"timestamp":"2024-07-29T08:31:18.319Z"}
+info: Connected to MongoDB {"timestamp":"2024-07-29T08:31:18.339Z"}
+info: Server started on port 60558 {"timestamp":"2024-07-29T09:22:55.861Z"}
+info: Connected to MongoDB {"timestamp":"2024-07-29T09:22:55.892Z"}
+info: Server started on port 50687 {"timestamp":"2024-07-29T09:59:13.614Z"}
+info: Connected to MongoDB {"timestamp":"2024-07-29T09:59:13.651Z"}
+info: Products fetched successfully {"timestamp":"2024-07-29T10:07:50.147Z"}
+info: Products fetched successfully {"timestamp":"2024-07-29T10:07:50.188Z"}
+info: Products fetched successfully {"timestamp":"2024-07-29T10:08:24.040Z"}
+info: Products fetched successfully {"timestamp":"2024-07-29T10:08:24.155Z"}
+info: Product deleted successfully: {"$__":{"activePaths":{"paths":{"__v":"init","_id":"init","name":"init","price":"init","stock":"init"},"states":{"init":{"__v":true,"_id":true,"name":true,"price":true,"stock":true},"require":{}}},"skipId":true},"$isNew":false,"_doc":{"__v":0,"_id":"66a51189bbfda1571a941bd6","name":"baguette","price":1.5,"stock":100},"timestamp":"2024-07-29T10:08:27.434Z"}
+info: Product deleted successfully: {"$__":{"activePaths":{"paths":{"__v":"init","_id":"init","name":"init","price":"init","stock":"init"},"states":{"init":{"__v":true,"_id":true,"name":true,"price":true,"stock":true},"require":{}}},"skipId":true},"$isNew":false,"_doc":{"__v":0,"_id":"66a5139bbbfda1571a941bdc","name":"croissant","price":1,"stock":100},"timestamp":"2024-07-29T10:08:36.756Z"}
+info: Product deleted successfully: {"$__":{"activePaths":{"paths":{"__v":"init","_id":"init","name":"init","price":"init","stock":"init"},"states":{"init":{"__v":true,"_id":true,"name":true,"price":true,"stock":true},"require":{}}},"skipId":true},"$isNew":false,"_doc":{"__v":0,"_id":"66a5142014b24603205c1f75","name":"pain au chocolat","price":1,"stock":100},"timestamp":"2024-07-29T10:08:37.414Z"}
+info: Product deleted successfully: {"$__":{"activePaths":{"paths":{"__v":"init","_id":"init","name":"init","price":"init","stock":"init"},"states":{"init":{"__v":true,"_id":true,"name":true,"price":true,"stock":true},"require":{}}},"skipId":true},"$isNew":false,"_doc":{"__v":0,"_id":"66a530590617627fb7c126e2","name":"farine","price":1,"stock":1000},"timestamp":"2024-07-29T10:08:38.383Z"}
+info: Products fetched successfully {"timestamp":"2024-07-29T10:09:03.777Z"}
+info: Products fetched successfully {"timestamp":"2024-07-29T10:09:07.374Z"}
+info: Server started on port 52115 {"timestamp":"2024-07-29T10:10:50.510Z"}
+info: Connected to MongoDB {"timestamp":"2024-07-29T10:10:50.527Z"}
+info: Products fetched successfully {"timestamp":"2024-07-29T10:11:20.490Z"}
+info: Products fetched successfully {"timestamp":"2024-07-29T10:11:20.516Z"}
+info: Products fetched successfully {"timestamp":"2024-07-29T10:11:20.844Z"}
+info: Products fetched successfully {"timestamp":"2024-07-29T10:11:21.106Z"}
+info: Products fetched successfully {"timestamp":"2024-07-29T10:11:21.170Z"}
+info: Products fetched successfully {"timestamp":"2024-07-29T10:11:21.434Z"}
+info: Products fetched successfully {"timestamp":"2024-07-29T10:11:21.508Z"}
+info: Products fetched successfully {"timestamp":"2024-07-29T10:11:21.753Z"}
+info: Products fetched successfully {"timestamp":"2024-07-29T10:15:01.396Z"}
+info: Products fetched successfully {"timestamp":"2024-07-29T10:15:01.428Z"}
+info: Products fetched successfully {"timestamp":"2024-07-29T10:15:01.758Z"}
+info: Products fetched successfully {"timestamp":"2024-07-29T10:15:02.006Z"}
+info: Products fetched successfully {"timestamp":"2024-07-29T10:17:09.993Z"}
+info: Products fetched successfully {"timestamp":"2024-07-29T10:17:10.031Z"}
+info: Products fetched successfully {"timestamp":"2024-07-29T10:17:10.042Z"}
+info: Products fetched successfully {"timestamp":"2024-07-29T10:17:10.369Z"}
+info: Products fetched successfully {"timestamp":"2024-07-29T10:18:57.061Z"}
+info: Products fetched successfully {"timestamp":"2024-07-29T10:18:57.092Z"}
+info: Products fetched successfully {"timestamp":"2024-07-29T10:22:38.049Z"}
+info: Products fetched successfully {"timestamp":"2024-07-29T10:24:19.048Z"}
+info: Products fetched successfully {"timestamp":"2024-07-29T10:24:19.071Z"}
+info: Products fetched successfully {"timestamp":"2024-07-29T10:24:42.039Z"}
+info: Products fetched successfully {"timestamp":"2024-07-29T10:25:40.620Z"}
+info: Products fetched successfully {"timestamp":"2024-07-29T10:25:40.641Z"}
+info: Products fetched successfully {"timestamp":"2024-07-29T10:25:40.734Z"}
+info: Products fetched successfully {"timestamp":"2024-07-29T10:25:41.700Z"}
+info: Server started on port 63182 {"timestamp":"2024-07-29T11:35:19.034Z"}
+info: Port 63182 written to C:\Users\sebas\boulangerie-app\port.txt {"timestamp":"2024-07-29T11:35:19.040Z"}
+info: Connected to MongoDB {"timestamp":"2024-07-29T11:35:19.090Z"}
+info: Products fetched successfully {"timestamp":"2024-07-29T11:38:50.008Z"}
+info: Products fetched successfully {"timestamp":"2024-07-29T11:41:13.958Z"}
+info: Products fetched successfully {"timestamp":"2024-07-29T12:05:43.510Z"}
+info: Products fetched successfully {"timestamp":"2024-07-29T12:07:46.164Z"}
+info: Server started on port 50687 {"timestamp":"2024-07-29T16:01:40.191Z"}
+info: Port 50687 written to C:\Users\sebas\boulangerie-app\port.txt {"timestamp":"2024-07-29T16:01:40.194Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:03:43.225Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:03:44.231Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:03:45.241Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:03:46.248Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:03:47.253Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:03:48.262Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:03:49.272Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:03:50.278Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:03:51.301Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:03:52.311Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:03:53.322Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:03:54.334Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:03:55.342Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:03:56.355Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:03:57.368Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:03:58.385Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:03:59.393Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:00.400Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:01.404Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:02.415Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:03.428Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:04.451Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:05.472Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:06.483Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:07.486Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:08.498Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:09.506Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:10.517Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:11.531Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:12.540Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:13.550Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:14.556Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:15.578Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:16.596Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:17.602Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:18.616Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:19.620Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:20.626Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:21.637Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:22.645Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:23.668Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:24.678Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:25.691Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:26.692Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:27.706Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:28.723Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:29.734Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:30.744Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:31.746Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:32.751Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:33.753Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:34.762Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:35.777Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:36.791Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:37.804Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:38.821Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:39.831Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:40.836Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:41.849Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:42.869Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:43.905Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:44.909Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:45.919Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:46.987Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:48.001Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:49.009Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:50.027Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:51.036Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:52.045Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:53.058Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:54.074Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:55.084Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:56.097Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:57.109Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:58.119Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:04:59.125Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:00.134Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:01.151Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:02.161Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:03.168Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:04.176Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:05.190Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:06.201Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:07.210Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:08.217Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:09.233Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:10.242Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:11.254Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:12.265Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:13.274Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:14.285Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:15.290Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:16.297Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:17.311Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:18.322Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:19.336Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:20.346Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:21.357Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:22.366Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:23.377Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:24.393Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:25.405Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:26.418Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:27.427Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:28.440Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:29.466Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:30.494Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:31.507Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:32.517Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:33.546Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:34.634Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:35.645Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:36.661Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:37.678Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:38.693Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:39.708Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:40.722Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:41.725Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:42.737Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:43.748Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:44.763Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:45.768Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:46.778Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:47.792Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:48.802Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:49.812Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:50.821Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:51.833Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:52.842Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:53.881Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:54.889Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:55.895Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:56.899Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:57.925Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:58.958Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:05:59.988Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:01.012Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:02.055Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:03.086Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:04.102Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:05.107Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:06.124Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:07.141Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:08.149Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:09.158Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:10.169Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:11.172Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:12.180Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:13.191Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:14.199Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:15.204Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:16.220Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:17.229Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:18.233Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:19.240Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:20.254Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:21.270Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:22.282Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:23.290Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:24.303Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:25.306Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:26.318Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:27.329Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:28.345Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:29.349Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:30.360Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:31.489Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:32.504Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:33.527Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:34.539Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:35.544Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:36.554Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:37.557Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:38.559Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:39.573Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:40.581Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:41.582Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:42.592Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:43.605Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:44.626Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:45.633Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:46.645Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:47.656Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:48.671Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:49.684Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:50.698Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:51.713Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:52.720Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:53.766Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:54.777Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:55.795Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:56.806Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:57.810Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:58.823Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:06:59.834Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:00.842Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:01.851Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:02.860Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:03.870Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:04.889Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:05.930Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:06.966Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:07.973Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:09.011Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:10.231Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:11.246Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:12.251Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:13.262Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:14.273Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:15.275Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:16.285Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:17.300Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:18.307Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:19.319Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:20.330Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:21.341Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:22.355Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:23.365Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:24.374Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:25.382Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:26.388Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:27.393Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:28.403Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:29.409Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:30.423Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:31.438Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:32.442Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:33.465Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:34.468Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:35.487Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:36.494Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:37.509Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:38.519Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:39.529Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:40.539Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:41.566Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:42.572Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:43.585Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:44.603Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:45.610Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:46.620Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:47.630Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:48.636Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:49.647Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:50.656Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:51.661Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:52.662Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:53.671Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:54.680Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:55.695Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:56.705Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:57.718Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:58.733Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:07:59.752Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:00.764Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:01.769Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:02.775Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:03.805Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:04.814Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:05.827Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:06.913Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:07.917Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:08.923Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:09.937Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:10.951Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:11.962Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:12.969Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:13.976Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:14.980Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:15.996Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:17.017Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:18.027Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:19.040Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:20.051Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:21.066Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:22.078Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:23.087Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:24.099Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:25.115Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:26.127Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:27.136Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:28.142Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:29.146Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:30.160Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:31.166Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:32.183Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:33.189Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:34.198Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:35.210Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:36.216Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:37.226Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:38.237Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:39.247Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:40.259Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:41.271Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:42.282Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:43.294Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:44.300Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:45.314Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:46.323Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:47.336Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:48.337Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:49.351Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:50.361Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:51.374Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:52.386Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:53.396Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:54.405Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:55.414Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:56.420Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:57.430Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:58.438Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:08:59.451Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:00.453Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:01.466Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:02.474Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:03.523Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:04.543Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:05.551Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:06.562Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:07.569Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:08.589Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:09.603Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:10.637Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:11.823Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:12.931Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:14.010Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:15.155Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:16.277Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:17.284Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:18.299Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:19.305Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:20.312Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:21.323Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:22.328Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:23.338Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:24.350Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:25.365Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:26.373Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:27.381Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:28.386Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:29.401Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:30.412Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:31.428Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:32.434Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:33.442Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:34.500Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:35.512Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:36.521Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:37.535Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:38.542Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:39.551Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:40.564Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:41.576Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:42.582Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:43.616Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:44.685Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:45.763Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:46.768Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:47.785Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:48.796Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:49.802Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:50.815Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:51.826Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:52.838Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:53.843Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:54.860Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:55.886Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:56.901Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:57.914Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:58.920Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:09:59.923Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:00.932Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:01.940Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:02.946Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:03.957Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:04.964Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:05.996Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:07.007Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:08.017Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:09.023Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:10.032Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:11.042Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:12.047Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:13.058Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:14.068Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:15.125Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:16.195Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:17.282Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:18.297Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:19.306Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:20.319Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:21.326Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:22.340Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:23.351Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:24.362Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:25.369Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:26.380Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:27.420Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:28.424Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:29.437Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:30.444Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:31.450Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:32.465Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:33.472Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:34.485Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:35.496Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:36.505Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:37.510Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:38.519Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:39.527Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:39.531Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:40.530Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:40.548Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:41.541Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:41.558Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:42.552Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:42.567Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:43.560Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:43.576Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:44.568Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:44.583Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:45.577Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:45.624Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:46.582Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:46.660Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:47.595Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:47.690Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:48.611Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:48.704Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:49.625Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:49.719Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:50.640Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:50.740Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:51.652Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:51.745Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:52.662Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:52.755Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:53.672Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:53.764Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:54.678Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:54.771Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:55.685Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:55.778Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:56.699Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:56.793Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:57.712Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:57.805Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:58.723Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:58.816Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:59.735Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:10:59.829Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:00.746Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:00.838Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:01.756Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:01.847Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:02.769Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:02.852Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:03.783Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:03.857Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:04.787Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:04.911Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:05.795Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:05.921Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:06.800Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:06.926Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:07.809Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:07.932Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:08.833Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:08.948Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:09.846Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:10.054Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:10.855Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:11.058Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:11.868Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:12.072Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:12.882Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:13.079Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:13.891Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:14.080Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:14.894Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:15.083Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:15.906Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:16.091Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:16.910Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:17.098Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:17.922Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:18.111Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:18.924Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:19.126Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:19.961Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:20.134Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:20.987Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:21.143Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:22.004Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:22.158Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:23.013Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:23.169Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:24.027Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:24.179Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:25.035Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:25.192Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:26.046Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:26.204Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:27.058Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:27.213Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:28.071Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:28.228Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:29.077Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:29.281Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:30.088Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:30.288Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:31.097Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:31.299Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:32.107Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:32.310Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:33.115Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:33.316Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:34.125Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:34.326Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:35.129Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:35.330Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:36.140Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:36.402Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:37.149Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:37.413Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:38.157Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:38.420Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:39.161Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:39.424Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:40.217Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:40.437Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:41.275Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:41.441Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:42.332Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:42.443Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:43.343Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:43.451Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:44.351Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:44.459Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:45.354Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:45.462Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:46.366Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:46.471Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:47.370Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:47.487Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:48.380Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:48.537Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:49.387Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:49.543Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:50.400Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:50.555Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:51.419Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:51.563Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:52.482Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:52.577Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:53.496Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:53.589Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:54.510Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:54.602Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:55.514Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:55.607Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:56.526Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:56.652Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:57.532Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:57.658Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:58.545Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:58.670Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:59.548Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:11:59.685Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:12:00.565Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:12:00.692Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:12:01.583Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:12:01.705Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:12:02.589Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:12:02.711Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:12:03.600Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:12:03.724Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:12:04.614Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:12:04.744Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:12:05.629Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:12:05.753Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:12:06.631Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:12:06.757Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:12:07.647Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:12:07.773Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:12:08.694Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:12:08.775Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:12:09.701Z"}
+warn: Address in use, retrying... {"timestamp":"2024-07-29T16:12:09.783Z"}
+info: Server started on port 50687 {"timestamp":"2024-07-29T16:12:24.643Z"}
+info: Port 50687 written to C:\Users\sebas\boulangerie-app\port.txt {"timestamp":"2024-07-29T16:12:24.647Z"}
+info: New product created: {"$__":{"$versionError":null,"activePaths":{"paths":{"name":"require","price":"require","stock":"require"},"states":{"default":{},"modify":{},"require":{"name":true,"price":true,"stock":true}}},"backup":{"activePaths":{"default":{"_id":true},"modify":{"name":true,"price":true,"stock":true}},"validationError":null},"cachedRequired":{},"inserting":true,"op":null,"saveOptions":null,"savedState":{},"saving":null,"validating":null},"$isNew":false,"_doc":{"__v":0,"_id":"66a7c74d37531a50065736c2","name":"Test Product","price":9.99,"stock":100},"timestamp":"2024-07-29T16:46:05.207Z"}
+info: New product created: {"$__":{"$versionError":null,"activePaths":{"paths":{"name":"require","price":"require","stock":"require"},"states":{"default":{},"modify":{},"require":{"name":true,"price":true,"stock":true}}},"backup":{"activePaths":{"default":{"_id":true},"modify":{"name":true,"price":true,"stock":true}},"validationError":null},"cachedRequired":{},"inserting":true,"op":null,"saveOptions":null,"savedState":{},"saving":null,"validating":null},"$isNew":false,"_doc":{"__v":0,"_id":"66a7c85837531a50065736c5","name":"Test Product","price":9.99,"stock":100},"timestamp":"2024-07-29T16:50:32.778Z"}
+info: Product deleted successfully: {"$__":{"activePaths":{"paths":{"__v":"init","_id":"init","name":"init","price":"init","stock":"init"},"states":{"init":{"__v":true,"_id":true,"name":true,"price":true,"stock":true},"require":{}}},"skipId":true},"$isNew":false,"_doc":{"__v":0,"_id":"66a7c74d37531a50065736c2","name":"Test Product","price":9.99,"stock":100},"timestamp":"2024-07-29T16:58:31.299Z"}
+info: New product created: {"$__":{"$versionError":null,"activePaths":{"paths":{"name":"require","price":"require","stock":"require"},"states":{"default":{},"modify":{},"require":{"name":true,"price":true,"stock":true}}},"backup":{"activePaths":{"default":{"_id":true},"modify":{"name":true,"price":true,"stock":true}},"validationError":null},"cachedRequired":{},"inserting":true,"op":null,"saveOptions":null,"savedState":{},"saving":null,"validating":null},"$isNew":false,"_doc":{"__v":0,"_id":"66a7ca4037531a50065736eb","name":"Test Product","price":9.99,"stock":100},"timestamp":"2024-07-29T16:58:40.631Z"}
+info: Product deleted successfully: {"$__":{"activePaths":{"paths":{"__v":"init","_id":"init","name":"init","price":"init","stock":"init"},"states":{"init":{"__v":true,"_id":true,"name":true,"price":true,"stock":true},"require":{}}},"skipId":true},"$isNew":false,"_doc":{"__v":0,"_id":"66a7c85837531a50065736c5","name":"Test Product","price":9.99,"stock":100},"timestamp":"2024-07-29T17:18:54.041Z"}
+info: Product deleted successfully: {"$__":{"activePaths":{"paths":{"__v":"init","_id":"init","name":"init","price":"init","stock":"init"},"states":{"init":{"__v":true,"_id":true,"name":true,"price":true,"stock":true},"require":{}}},"skipId":true},"$isNew":false,"_doc":{"__v":0,"_id":"66a7ca4037531a50065736eb","name":"Test Product","price":9.99,"stock":100},"timestamp":"2024-07-29T17:19:06.559Z"}
+info: New product created: {"$__":{"$versionError":null,"activePaths":{"paths":{"name":"require","price":"require","stock":"require"},"states":{"default":{},"modify":{},"require":{"name":true,"price":true,"stock":true}}},"backup":{"activePaths":{"default":{"_id":true},"modify":{"name":true,"price":true,"stock":true}},"validationError":null},"cachedRequired":{},"inserting":true,"op":null,"saveOptions":null,"savedState":{},"saving":null,"validating":null},"$isNew":false,"_doc":{"__v":0,"_id":"66a7f94737531a500657374e","name":"Test Product","price":9.99,"stock":100},"timestamp":"2024-07-29T20:19:19.157Z"}
+info: New product created: {"$__":{"$versionError":null,"activePaths":{"paths":{"name":"require","price":"require","stock":"require"},"states":{"default":{},"modify":{},"require":{"name":true,"price":true,"stock":true}}},"backup":{"activePaths":{"default":{"_id":true},"modify":{"name":true,"price":true,"stock":true}},"validationError":null},"cachedRequired":{},"inserting":true,"op":null,"saveOptions":null,"savedState":{},"saving":null,"validating":null},"$isNew":false,"_doc":{"__v":0,"_id":"66a7fc2937531a500657376f","name":"Test Product","price":9.99,"stock":100},"timestamp":"2024-07-29T20:31:37.312Z"}
+info: New product created: {"$__":{"$versionError":null,"activePaths":{"paths":{"name":"require","price":"require","stock":"require"},"states":{"default":{},"modify":{},"require":{"name":true,"price":true,"stock":true}}},"backup":{"activePaths":{"default":{"_id":true},"modify":{"name":true,"price":true,"stock":true}},"validationError":null},"cachedRequired":{},"inserting":true,"op":null,"saveOptions":null,"savedState":{},"saving":null,"validating":null},"$isNew":false,"_doc":{"__v":0,"_id":"66a7fee337531a5006573790","name":"Test Product","price":9.99,"stock":100},"timestamp":"2024-07-29T20:43:15.613Z"}
