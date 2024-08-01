@@ -253,3 +253,306 @@
 {"$__":{"$options":{"defaults":true,"isNew":false,"skipId":true,"willInit":true},"$setCalled":{},"_id":"66a886e24c67193d10fa8b13","activePaths":{"paths":{"__v":"init","_id":"init","name":"init","price":"init","stock":"init"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{"__v":true,"_id":true,"name":true,"price":true,"stock":true},"modify":{},"require":{}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"pathsToScopes":{},"session":null,"strictMode":true,"wasPopulated":false},"$init":true,"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66a886e24c67193d10fa8b13","name":"pain au chocolat","price":150,"stock":1000},"isNew":false,"level":"info","message":"Product deleted successfully:","timestamp":"2024-07-30T06:23:41.817Z"}
 {"$__":{"$options":{"defaults":true},"$setCalled":{},"_id":"66a8877d4c67193d10fa8b17","activePaths":{"paths":{"name":"require","price":"require","stock":"require"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{},"modify":{},"require":{"name":true,"price":true,"stock":true}}},"backup":{"activePaths":{"default":{"_id":true},"modify":{"name":true,"price":true,"stock":true}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"inserting":true,"pathsToScopes":{},"savedState":{},"session":null,"strictMode":true,"validating":null,"wasPopulated":false},"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66a8877d4c67193d10fa8b17","name":"pain au chocolat","price":2,"stock":1000},"isNew":false,"level":"info","message":"New product created:","timestamp":"2024-07-30T06:26:05.234Z"}
 {"level":"info","message":"Retrieved 1 products","timestamp":"2024-07-30T06:26:41.582Z"}
+{"level":"info","message":"Server started on port 50687","timestamp":"2024-07-30T10:04:30.256Z"}
+{"level":"info","message":"Port 50687 written to C:\\Users\\sebas\\boulangerie-app\\port.txt","timestamp":"2024-07-30T10:04:30.265Z"}
+{"level":"info","message":"Retrieved 1 products","timestamp":"2024-07-30T10:04:46.270Z"}
+{"level":"info","message":"Retrieved 1 products","timestamp":"2024-07-30T10:04:46.291Z"}
+{"level":"info","message":"Retrieved 1 products","timestamp":"2024-07-30T10:04:46.313Z"}
+{"level":"info","message":"Retrieved 1 products","timestamp":"2024-07-30T10:04:46.329Z"}
+{"level":"info","message":"Retrieved 1 products","timestamp":"2024-07-30T10:04:46.344Z"}
+{"level":"info","message":"Retrieved 1 products","timestamp":"2024-07-30T10:04:46.356Z"}
+{"$__":{"$options":{"defaults":true},"$setCalled":{},"_id":"66a8bad124d41e088cae854d","activePaths":{"paths":{"name":"require","price":"require","stock":"require"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{},"modify":{},"require":{"name":true,"price":true,"stock":true}}},"backup":{"activePaths":{"default":{"_id":true},"modify":{"name":true,"price":true,"stock":true}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"inserting":true,"pathsToScopes":{},"savedState":{},"session":null,"strictMode":true,"validating":null,"wasPopulated":false},"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66a8bad124d41e088cae854d","name":"pain aux raisins","price":1,"stock":100},"isNew":false,"level":"info","message":"New product created:","timestamp":"2024-07-30T10:05:05.453Z"}
+{"level":"info","message":"Retrieved 2 products","timestamp":"2024-07-30T10:05:07.664Z"}
+{"$__":{"$options":{"defaults":true,"isNew":false,"skipId":true,"willInit":true},"$setCalled":{},"_id":"66a8877d4c67193d10fa8b17","activePaths":{"paths":{"__v":"init","_id":"init","name":"init","price":"init","stock":"init"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{"__v":true,"_id":true,"name":true,"price":true,"stock":true},"modify":{},"require":{}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"pathsToScopes":{},"session":null,"strictMode":true,"wasPopulated":false},"$init":true,"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66a8877d4c67193d10fa8b17","name":"pain au chocolat","price":2,"stock":1000},"isNew":false,"level":"info","message":"Product deleted successfully:","timestamp":"2024-07-30T10:05:11.263Z"}
+{"$__":{"$options":{"defaults":true},"$setCalled":{},"_id":"66a8bb2324d41e088cae8551","activePaths":{"paths":{"name":"require","price":"require","stock":"require"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{},"modify":{},"require":{"name":true,"price":true,"stock":true}}},"backup":{"activePaths":{"default":{"_id":true},"modify":{"name":true,"price":true,"stock":true}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"inserting":true,"pathsToScopes":{},"savedState":{},"session":null,"strictMode":true,"validating":null,"wasPopulated":false},"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66a8bb2324d41e088cae8551","name":"pain aux raisins","price":1.5,"stock":150},"isNew":false,"level":"info","message":"New product created:","timestamp":"2024-07-30T10:06:27.080Z"}
+{"level":"info","message":"Retrieved 2 products","timestamp":"2024-07-30T10:06:31.315Z"}
+{"$__":{"$options":{"defaults":true,"isNew":false,"skipId":true,"willInit":true},"$setCalled":{},"_id":"66a8bad124d41e088cae854d","activePaths":{"paths":{"__v":"init","_id":"init","name":"init","price":"init","stock":"init"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{"__v":true,"_id":true,"name":true,"price":true,"stock":true},"modify":{},"require":{}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"pathsToScopes":{},"session":null,"strictMode":true,"wasPopulated":false},"$init":true,"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66a8bad124d41e088cae854d","name":"pain aux raisins","price":1,"stock":100},"isNew":false,"level":"info","message":"Product deleted successfully:","timestamp":"2024-07-30T10:10:47.889Z"}
+{"$__":{"$options":{"defaults":true,"isNew":false,"skipId":true,"willInit":true},"$setCalled":{},"_id":"66a8bb2324d41e088cae8551","activePaths":{"paths":{"__v":"init","_id":"init","name":"init","price":"init","stock":"init"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{"__v":true,"_id":true,"name":true,"price":true,"stock":true},"modify":{},"require":{}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"pathsToScopes":{},"session":null,"strictMode":true,"wasPopulated":false},"$init":true,"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66a8bb2324d41e088cae8551","name":"pain aux raisins","price":1.5,"stock":150},"isNew":false,"level":"info","message":"Product deleted successfully:","timestamp":"2024-07-30T10:10:50.577Z"}
+{"$__":{"$options":{"defaults":true},"$setCalled":{},"_id":"66a8bc8424d41e088cae8556","activePaths":{"paths":{"name":"require","price":"require","stock":"require"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{},"modify":{},"require":{"name":true,"price":true,"stock":true}}},"backup":{"activePaths":{"default":{"_id":true},"modify":{"name":true,"price":true,"stock":true}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"inserting":true,"pathsToScopes":{},"savedState":{},"session":null,"strictMode":true,"validating":null,"wasPopulated":false},"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66a8bc8424d41e088cae8556","name":"pain aux raisins","price":1,"stock":20},"isNew":false,"level":"info","message":"New product created:","timestamp":"2024-07-30T10:12:20.306Z"}
+{"$__":{"$options":{"defaults":true},"$setCalled":{},"_id":"66a8bd1024d41e088cae8558","activePaths":{"paths":{"name":"require","price":"require","stock":"require"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{},"modify":{},"require":{"name":true,"price":true,"stock":true}}},"backup":{"activePaths":{"default":{"_id":true},"modify":{"name":true,"price":true,"stock":true}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"inserting":true,"pathsToScopes":{},"savedState":{},"session":null,"strictMode":true,"validating":null,"wasPopulated":false},"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66a8bd1024d41e088cae8558","name":"pain aux raisins","price":1,"stock":100},"isNew":false,"level":"info","message":"New product created:","timestamp":"2024-07-30T10:14:40.345Z"}
+{"level":"info","message":"Retrieved 2 products","timestamp":"2024-07-30T10:14:43.367Z"}
+{"level":"info","message":"Server started on port 50687","timestamp":"2024-07-30T11:57:00.792Z"}
+{"level":"info","message":"Port 50687 written to C:\\Users\\sebas\\boulangerie-app\\port.txt","timestamp":"2024-07-30T11:57:00.795Z"}
+{"level":"info","message":"Retrieved 2 products","timestamp":"2024-07-30T11:57:15.684Z"}
+{"level":"info","message":"Retrieved 2 products","timestamp":"2024-07-30T11:57:15.696Z"}
+{"level":"info","message":"Retrieved 2 products","timestamp":"2024-07-30T11:57:15.703Z"}
+{"level":"info","message":"Retrieved 2 products","timestamp":"2024-07-30T11:57:15.710Z"}
+{"level":"info","message":"Retrieved 2 products","timestamp":"2024-07-30T11:57:15.720Z"}
+{"level":"info","message":"Retrieved 2 products","timestamp":"2024-07-30T11:57:15.727Z"}
+{"level":"info","message":"Server started on port 50687","timestamp":"2024-07-31T19:43:15.131Z"}
+{"level":"info","message":"Port 50687 written to C:\\Users\\sebas\\boulangerie-app\\port.txt","timestamp":"2024-07-31T19:43:15.137Z"}
+{"level":"info","message":"Retrieved 2 products","timestamp":"2024-07-31T19:43:38.259Z"}
+{"level":"info","message":"Retrieved 2 products","timestamp":"2024-07-31T19:43:38.310Z"}
+{"level":"info","message":"Retrieved 2 products","timestamp":"2024-07-31T19:43:38.334Z"}
+{"level":"info","message":"Retrieved 2 products","timestamp":"2024-07-31T19:43:38.348Z"}
+{"level":"info","message":"Retrieved 2 products","timestamp":"2024-07-31T19:43:38.371Z"}
+{"level":"info","message":"Retrieved 2 products","timestamp":"2024-07-31T19:43:38.383Z"}
+{"level":"info","message":"Retrieved 2 products","timestamp":"2024-07-31T19:50:37.701Z"}
+{"level":"info","message":"Retrieved 2 products","timestamp":"2024-07-31T19:50:37.759Z"}
+{"level":"info","message":"Retrieved 2 products","timestamp":"2024-07-31T19:50:37.777Z"}
+{"level":"info","message":"Retrieved 2 products","timestamp":"2024-07-31T19:50:37.801Z"}
+{"level":"info","message":"Retrieved 2 products","timestamp":"2024-07-31T19:50:37.815Z"}
+{"level":"info","message":"Retrieved 2 products","timestamp":"2024-07-31T19:50:37.827Z"}
+{"level":"info","message":"Retrieved 2 products","timestamp":"2024-07-31T19:56:24.035Z"}
+{"level":"info","message":"Retrieved 2 products","timestamp":"2024-07-31T19:56:26.417Z"}
+{"level":"info","message":"Retrieved 2 products","timestamp":"2024-07-31T19:56:26.453Z"}
+{"level":"info","message":"Retrieved 2 products","timestamp":"2024-07-31T19:56:26.464Z"}
+{"level":"info","message":"Retrieved 2 products","timestamp":"2024-07-31T19:56:26.486Z"}
+{"level":"info","message":"Retrieved 2 products","timestamp":"2024-07-31T19:56:26.558Z"}
+{"level":"info","message":"Retrieved 2 products","timestamp":"2024-07-31T19:56:26.624Z"}
+{"$__":{"$options":{"defaults":true,"isNew":false,"skipId":true,"willInit":true},"$setCalled":{},"_id":"66a8bc8424d41e088cae8556","activePaths":{"paths":{"__v":"init","_id":"init","name":"init","price":"init","stock":"init"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{"__v":true,"_id":true,"name":true,"price":true,"stock":true},"modify":{},"require":{}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"pathsToScopes":{},"session":null,"strictMode":true,"wasPopulated":false},"$init":true,"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66a8bc8424d41e088cae8556","name":"pain aux raisins","price":1,"stock":20},"isNew":false,"level":"info","message":"Product deleted successfully:","timestamp":"2024-07-31T19:56:29.759Z"}
+{"$__":{"$options":{"defaults":true,"isNew":false,"skipId":true,"willInit":true},"$setCalled":{},"_id":"66a8bd1024d41e088cae8558","activePaths":{"paths":{"__v":"init","_id":"init","name":"init","price":"init","stock":"init"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{"__v":true,"_id":true,"name":true,"price":true,"stock":true},"modify":{},"require":{}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"pathsToScopes":{},"session":null,"strictMode":true,"wasPopulated":false},"$init":true,"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66a8bd1024d41e088cae8558","name":"pain aux raisins","price":1,"stock":100},"isNew":false,"level":"info","message":"Product deleted successfully:","timestamp":"2024-07-31T19:56:30.391Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-07-31T20:00:36.945Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-07-31T20:00:36.963Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-07-31T20:00:36.980Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-07-31T20:00:36.991Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-07-31T20:00:36.998Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-07-31T20:00:37.009Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-07-31T20:02:47.214Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-07-31T20:02:47.264Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-07-31T20:02:47.279Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-07-31T20:02:47.291Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-07-31T20:02:47.312Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-07-31T20:02:47.356Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-07-31T20:02:59.834Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-07-31T20:03:00.458Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-07-31T20:03:01.895Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-07-31T20:05:23.836Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-07-31T20:05:27.636Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-07-31T20:05:27.651Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-07-31T20:05:27.662Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-07-31T20:05:27.672Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-07-31T20:05:27.686Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-07-31T20:05:27.700Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-07-31T20:06:25.515Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-07-31T20:06:25.544Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-07-31T20:06:25.579Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-07-31T20:06:25.599Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-07-31T20:06:25.611Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-07-31T20:06:25.620Z"}
+{"$__":{"$options":{"defaults":true},"$setCalled":{},"_id":"66aa99c5559793408c3f6788","activePaths":{"paths":{"name":"require","price":"require","stock":"require"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{},"modify":{},"require":{"name":true,"price":true,"stock":true}}},"backup":{"activePaths":{"default":{"_id":true},"modify":{"name":true,"price":true,"stock":true}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"inserting":true,"pathsToScopes":{},"savedState":{},"session":null,"strictMode":true,"validating":null,"wasPopulated":false},"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66aa99c5559793408c3f6788","name":"pain aux raisins","price":1,"stock":100},"isNew":false,"level":"info","message":"New product created:","timestamp":"2024-07-31T20:08:37.970Z"}
+{"level":"info","message":"Retrieved 1 products","timestamp":"2024-07-31T20:08:39.534Z"}
+{"level":"info","message":"Retrieved 1 products","timestamp":"2024-07-31T20:14:30.055Z"}
+{"level":"info","message":"Retrieved 1 products","timestamp":"2024-07-31T20:14:30.085Z"}
+{"level":"info","message":"Retrieved 1 products","timestamp":"2024-07-31T20:14:30.096Z"}
+{"level":"info","message":"Retrieved 1 products","timestamp":"2024-07-31T20:14:30.109Z"}
+{"level":"info","message":"Retrieved 1 products","timestamp":"2024-07-31T20:14:30.119Z"}
+{"level":"info","message":"Retrieved 1 products","timestamp":"2024-07-31T20:14:30.127Z"}
+{"$__":{"$options":{"defaults":true},"$setCalled":{},"_id":"66aa9b28559793408c3f6791","activePaths":{"paths":{"name":"require","price":"require","stock":"require"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{},"modify":{},"require":{"name":true,"price":true,"stock":true}}},"backup":{"activePaths":{"default":{"_id":true},"modify":{"name":true,"price":true,"stock":true}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"inserting":true,"pathsToScopes":{},"savedState":{},"session":null,"strictMode":true,"validating":null,"wasPopulated":false},"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66aa9b28559793408c3f6791","name":"pain aux raisins","price":1,"stock":100},"isNew":false,"level":"info","message":"New product created:","timestamp":"2024-07-31T20:14:32.261Z"}
+{"level":"info","message":"Retrieved 2 products","timestamp":"2024-07-31T20:14:33.984Z"}
+{"$__":{"$options":{"defaults":true},"$setCalled":{},"_id":"66aa9b8d559793408c3f6794","activePaths":{"paths":{"name":"require","price":"require","stock":"require"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{},"modify":{},"require":{"name":true,"price":true,"stock":true}}},"backup":{"activePaths":{"default":{"_id":true},"modify":{"name":true,"price":true,"stock":true}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"inserting":true,"pathsToScopes":{},"savedState":{},"session":null,"strictMode":true,"validating":null,"wasPopulated":false},"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66aa9b8d559793408c3f6794","name":"pain aux raisins","price":1,"stock":100},"isNew":false,"level":"info","message":"New product created:","timestamp":"2024-07-31T20:16:13.491Z"}
+{"level":"info","message":"Retrieved 3 products","timestamp":"2024-07-31T20:16:16.328Z"}
+{"level":"info","message":"Retrieved 3 products","timestamp":"2024-07-31T20:22:38.644Z"}
+{"level":"info","message":"Retrieved 3 products","timestamp":"2024-07-31T20:22:38.669Z"}
+{"level":"info","message":"Retrieved 3 products","timestamp":"2024-07-31T20:22:38.686Z"}
+{"level":"info","message":"Retrieved 3 products","timestamp":"2024-07-31T20:22:38.705Z"}
+{"level":"info","message":"Retrieved 3 products","timestamp":"2024-07-31T20:22:38.718Z"}
+{"level":"info","message":"Retrieved 3 products","timestamp":"2024-07-31T20:22:38.728Z"}
+{"$__":{"$options":{"defaults":true},"$setCalled":{},"_id":"66aa9d16559793408c3f679d","activePaths":{"paths":{"name":"require","price":"require","stock":"require"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{},"modify":{},"require":{"name":true,"price":true,"stock":true}}},"backup":{"activePaths":{"default":{"_id":true},"modify":{"name":true,"price":true,"stock":true}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"inserting":true,"pathsToScopes":{},"savedState":{},"session":null,"strictMode":true,"validating":null,"wasPopulated":false},"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66aa9d16559793408c3f679d","name":"pain aux raisins","price":1,"stock":100},"isNew":false,"level":"info","message":"New product created:","timestamp":"2024-07-31T20:22:46.258Z"}
+{"level":"info","message":"Retrieved 4 products","timestamp":"2024-07-31T20:22:48.111Z"}
+{"level":"info","message":"Retrieved 4 products","timestamp":"2024-07-31T20:28:28.759Z"}
+{"level":"info","message":"Retrieved 4 products","timestamp":"2024-07-31T20:28:28.818Z"}
+{"level":"info","message":"Retrieved 4 products","timestamp":"2024-07-31T20:28:28.828Z"}
+{"level":"info","message":"Retrieved 4 products","timestamp":"2024-07-31T20:28:28.844Z"}
+{"level":"info","message":"Retrieved 4 products","timestamp":"2024-07-31T20:28:28.857Z"}
+{"level":"info","message":"Retrieved 4 products","timestamp":"2024-07-31T20:28:28.871Z"}
+{"$__":{"$options":{"defaults":true},"$setCalled":{},"_id":"66aa9e95559793408c3f67a6","activePaths":{"paths":{"name":"require","price":"require","stock":"require"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{},"modify":{},"require":{"name":true,"price":true,"stock":true}}},"backup":{"activePaths":{"default":{"_id":true},"modify":{"name":true,"price":true,"stock":true}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"inserting":true,"pathsToScopes":{},"savedState":{},"session":null,"strictMode":true,"validating":null,"wasPopulated":false},"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66aa9e95559793408c3f67a6","name":"pain aux raisins","price":1,"stock":100},"isNew":false,"level":"info","message":"New product created:","timestamp":"2024-07-31T20:29:09.058Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-07-31T20:29:11.388Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-07-31T20:51:02.244Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-07-31T20:51:02.265Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-07-31T20:51:02.282Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-07-31T20:51:02.292Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-07-31T20:51:02.302Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-07-31T20:51:02.312Z"}
+{"$__":{"$options":{"defaults":true},"$setCalled":{},"_id":"66aaa3c0559793408c3f67af","activePaths":{"paths":{"name":"require","price":"require","stock":"require"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{},"modify":{},"require":{"name":true,"price":true,"stock":true}}},"backup":{"activePaths":{"default":{"_id":true},"modify":{"name":true,"price":true,"stock":true}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"inserting":true,"pathsToScopes":{},"savedState":{},"session":null,"strictMode":true,"validating":null,"wasPopulated":false},"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66aaa3c0559793408c3f67af","name":"pain aux raisins","price":1,"stock":100},"isNew":false,"level":"info","message":"New product created:","timestamp":"2024-07-31T20:51:12.447Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-07-31T20:51:14.897Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-07-31T20:56:08.838Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-07-31T20:56:08.864Z"}
+{"$__":{"$options":{"defaults":true,"isNew":false,"skipId":true,"willInit":true},"$setCalled":{},"_id":"66aa99c5559793408c3f6788","activePaths":{"paths":{"__v":"init","_id":"init","name":"init","price":"init","stock":"init"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{"__v":true,"_id":true,"name":true,"price":true,"stock":true},"modify":{},"require":{}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"pathsToScopes":{},"session":null,"strictMode":true,"wasPopulated":false},"$init":true,"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66aa99c5559793408c3f6788","name":"pain aux raisins","price":1,"stock":100},"isNew":false,"level":"info","message":"Product deleted successfully:","timestamp":"2024-07-31T20:58:57.408Z"}
+{"$__":{"$options":{"defaults":true,"isNew":false,"skipId":true,"willInit":true},"$setCalled":{},"_id":"66aa9b28559793408c3f6791","activePaths":{"paths":{"__v":"init","_id":"init","name":"init","price":"init","stock":"init"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{"__v":true,"_id":true,"name":true,"price":true,"stock":true},"modify":{},"require":{}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"pathsToScopes":{},"session":null,"strictMode":true,"wasPopulated":false},"$init":true,"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66aa9b28559793408c3f6791","name":"pain aux raisins","price":1,"stock":100},"isNew":false,"level":"info","message":"Product deleted successfully:","timestamp":"2024-07-31T20:58:58.042Z"}
+{"$__":{"$options":{"defaults":true,"isNew":false,"skipId":true,"willInit":true},"$setCalled":{},"_id":"66aa9b8d559793408c3f6794","activePaths":{"paths":{"__v":"init","_id":"init","name":"init","price":"init","stock":"init"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{"__v":true,"_id":true,"name":true,"price":true,"stock":true},"modify":{},"require":{}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"pathsToScopes":{},"session":null,"strictMode":true,"wasPopulated":false},"$init":true,"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66aa9b8d559793408c3f6794","name":"pain aux raisins","price":1,"stock":100},"isNew":false,"level":"info","message":"Product deleted successfully:","timestamp":"2024-07-31T20:58:59.913Z"}
+{"$__":{"$options":{"defaults":true,"isNew":false,"skipId":true,"willInit":true},"$setCalled":{},"_id":"66aa9d16559793408c3f679d","activePaths":{"paths":{"__v":"init","_id":"init","name":"init","price":"init","stock":"init"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{"__v":true,"_id":true,"name":true,"price":true,"stock":true},"modify":{},"require":{}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"pathsToScopes":{},"session":null,"strictMode":true,"wasPopulated":false},"$init":true,"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66aa9d16559793408c3f679d","name":"pain aux raisins","price":1,"stock":100},"isNew":false,"level":"info","message":"Product deleted successfully:","timestamp":"2024-07-31T20:59:01.289Z"}
+{"$__":{"$options":{"defaults":true,"isNew":false,"skipId":true,"willInit":true},"$setCalled":{},"_id":"66aa9e95559793408c3f67a6","activePaths":{"paths":{"__v":"init","_id":"init","name":"init","price":"init","stock":"init"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{"__v":true,"_id":true,"name":true,"price":true,"stock":true},"modify":{},"require":{}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"pathsToScopes":{},"session":null,"strictMode":true,"wasPopulated":false},"$init":true,"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66aa9e95559793408c3f67a6","name":"pain aux raisins","price":1,"stock":100},"isNew":false,"level":"info","message":"Product deleted successfully:","timestamp":"2024-07-31T20:59:01.971Z"}
+{"$__":{"$options":{"defaults":true,"isNew":false,"skipId":true,"willInit":true},"$setCalled":{},"_id":"66aaa3c0559793408c3f67af","activePaths":{"paths":{"__v":"init","_id":"init","name":"init","price":"init","stock":"init"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{"__v":true,"_id":true,"name":true,"price":true,"stock":true},"modify":{},"require":{}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"pathsToScopes":{},"session":null,"strictMode":true,"wasPopulated":false},"$init":true,"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66aaa3c0559793408c3f67af","name":"pain aux raisins","price":1,"stock":100},"isNew":false,"level":"info","message":"Product deleted successfully:","timestamp":"2024-07-31T20:59:03.050Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-07-31T20:59:05.536Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-07-31T20:59:05.556Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-07-31T20:59:05.578Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-07-31T20:59:05.592Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-07-31T20:59:05.617Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-07-31T20:59:05.629Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-07-31T20:59:05.637Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-07-31T20:59:05.646Z"}
+{"$__":{"$options":{"defaults":true},"$setCalled":{},"_id":"66aaa5a3559793408c3f67c2","activePaths":{"paths":{"name":"require","price":"require","stock":"require"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{},"modify":{},"require":{"name":true,"price":true,"stock":true}}},"backup":{"activePaths":{"default":{"_id":true},"modify":{"name":true,"price":true,"stock":true}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"inserting":true,"pathsToScopes":{},"savedState":{},"session":null,"strictMode":true,"validating":null,"wasPopulated":false},"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66aaa5a3559793408c3f67c2","name":"pain aux raisins","price":1,"stock":100},"isNew":false,"level":"info","message":"New product created:","timestamp":"2024-07-31T20:59:15.304Z"}
+{"level":"info","message":"Retrieved 1 products","timestamp":"2024-07-31T20:59:15.319Z"}
+{"level":"info","message":"Retrieved 1 products","timestamp":"2024-07-31T21:00:11.399Z"}
+{"level":"info","message":"Retrieved 1 products","timestamp":"2024-07-31T21:00:15.288Z"}
+{"level":"info","message":"Retrieved 1 products","timestamp":"2024-07-31T21:00:15.308Z"}
+{"level":"info","message":"Retrieved 1 products","timestamp":"2024-07-31T21:00:15.336Z"}
+{"level":"info","message":"Retrieved 1 products","timestamp":"2024-07-31T21:00:15.347Z"}
+{"level":"info","message":"Retrieved 1 products","timestamp":"2024-07-31T21:00:15.356Z"}
+{"level":"info","message":"Retrieved 1 products","timestamp":"2024-07-31T21:00:15.367Z"}
+{"level":"info","message":"Retrieved 1 products","timestamp":"2024-07-31T21:00:15.376Z"}
+{"level":"info","message":"Retrieved 1 products","timestamp":"2024-07-31T21:00:15.389Z"}
+{"$__":{"$options":{"defaults":true,"isNew":false,"skipId":true,"willInit":true},"$setCalled":{},"_id":"66aaa5a3559793408c3f67c2","activePaths":{"paths":{"__v":"init","_id":"init","name":"init","price":"init","stock":"init"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{"__v":true,"_id":true,"name":true,"price":true,"stock":true},"modify":{},"require":{}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"pathsToScopes":{},"session":null,"strictMode":true,"wasPopulated":false},"$init":true,"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66aaa5a3559793408c3f67c2","name":"pain aux raisins","price":1,"stock":100},"isNew":false,"level":"info","message":"Product deleted successfully:","timestamp":"2024-07-31T21:00:25.493Z"}
+{"$__":{"$options":{"defaults":true},"$setCalled":{},"_id":"66aaa5ee559793408c3f67cf","activePaths":{"paths":{"name":"require","price":"require","stock":"require"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{},"modify":{},"require":{"name":true,"price":true,"stock":true}}},"backup":{"activePaths":{"default":{"_id":true},"modify":{"name":true,"price":true,"stock":true}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"inserting":true,"pathsToScopes":{},"savedState":{},"session":null,"strictMode":true,"validating":null,"wasPopulated":false},"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66aaa5ee559793408c3f67cf","name":"pain aux raisins","price":1,"stock":100},"isNew":false,"level":"info","message":"New product created:","timestamp":"2024-07-31T21:00:30.301Z"}
+{"level":"info","message":"Retrieved 1 products","timestamp":"2024-07-31T21:00:30.321Z"}
+{"$__":{"$options":{"defaults":true},"$setCalled":{},"_id":"66aaa5fa559793408c3f67d2","activePaths":{"paths":{"name":"require","price":"require","stock":"require"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{},"modify":{},"require":{"name":true,"price":true,"stock":true}}},"backup":{"activePaths":{"default":{"_id":true},"modify":{"name":true,"price":true,"stock":true}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"inserting":true,"pathsToScopes":{},"savedState":{},"session":null,"strictMode":true,"validating":null,"wasPopulated":false},"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66aaa5fa559793408c3f67d2","name":"pain aux raisins","price":1,"stock":100},"isNew":false,"level":"info","message":"New product created:","timestamp":"2024-07-31T21:00:42.864Z"}
+{"level":"info","message":"Retrieved 2 products","timestamp":"2024-07-31T21:00:42.878Z"}
+{"level":"info","message":"Retrieved 2 products","timestamp":"2024-07-31T21:00:47.411Z"}
+{"level":"info","message":"Retrieved 2 products","timestamp":"2024-07-31T21:04:09.788Z"}
+{"level":"info","message":"Retrieved 2 products","timestamp":"2024-07-31T21:04:40.442Z"}
+{"level":"info","message":"Retrieved 2 products","timestamp":"2024-07-31T21:04:40.472Z"}
+{"level":"info","message":"Retrieved 2 products","timestamp":"2024-07-31T21:04:40.489Z"}
+{"level":"info","message":"Retrieved 2 products","timestamp":"2024-07-31T21:04:40.507Z"}
+{"level":"info","message":"Retrieved 2 products","timestamp":"2024-07-31T21:04:40.517Z"}
+{"level":"info","message":"Retrieved 2 products","timestamp":"2024-07-31T21:04:40.525Z"}
+{"level":"info","message":"Retrieved 2 products","timestamp":"2024-07-31T21:04:40.536Z"}
+{"level":"info","message":"Retrieved 2 products","timestamp":"2024-07-31T21:04:40.547Z"}
+{"$__":{"$options":{"defaults":true},"$setCalled":{},"_id":"66aaa6ee559793408c3f67df","activePaths":{"paths":{"name":"require","price":"require","stock":"require"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{},"modify":{},"require":{"name":true,"price":true,"stock":true}}},"backup":{"activePaths":{"default":{"_id":true},"modify":{"name":true,"price":true,"stock":true}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"inserting":true,"pathsToScopes":{},"savedState":{},"session":null,"strictMode":true,"validating":null,"wasPopulated":false},"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66aaa6ee559793408c3f67df","name":"pain aux raisins","price":1,"stock":100},"isNew":false,"level":"info","message":"New product created:","timestamp":"2024-07-31T21:04:46.725Z"}
+{"level":"info","message":"Retrieved 3 products","timestamp":"2024-07-31T21:04:46.742Z"}
+{"level":"info","message":"Retrieved 3 products","timestamp":"2024-07-31T21:07:32.776Z"}
+{"level":"info","message":"Retrieved 3 products","timestamp":"2024-07-31T21:17:51.614Z"}
+{"level":"info","message":"Retrieved 3 products","timestamp":"2024-07-31T21:17:51.647Z"}
+{"level":"info","message":"Retrieved 3 products","timestamp":"2024-07-31T21:17:51.658Z"}
+{"level":"info","message":"Retrieved 3 products","timestamp":"2024-07-31T21:17:51.670Z"}
+{"level":"info","message":"Retrieved 3 products","timestamp":"2024-07-31T21:17:51.682Z"}
+{"level":"info","message":"Retrieved 3 products","timestamp":"2024-07-31T21:17:51.689Z"}
+{"level":"info","message":"Retrieved 3 products","timestamp":"2024-07-31T21:17:51.701Z"}
+{"level":"info","message":"Retrieved 3 products","timestamp":"2024-07-31T21:17:51.711Z"}
+{"$__":{"$options":{"defaults":true},"$setCalled":{},"_id":"66aaaa04559793408c3f67eb","activePaths":{"paths":{"name":"require","price":"require","stock":"require"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{},"modify":{},"require":{"name":true,"price":true,"stock":true}}},"backup":{"activePaths":{"default":{"_id":true},"modify":{"name":true,"price":true,"stock":true}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"inserting":true,"pathsToScopes":{},"savedState":{},"session":null,"strictMode":true,"validating":null,"wasPopulated":false},"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66aaaa04559793408c3f67eb","name":"pain aux raisins","price":1,"stock":100},"isNew":false,"level":"info","message":"New product created:","timestamp":"2024-07-31T21:17:56.902Z"}
+{"level":"info","message":"Retrieved 4 products","timestamp":"2024-07-31T21:17:56.955Z"}
+{"level":"info","message":"Retrieved 4 products","timestamp":"2024-07-31T21:22:12.894Z"}
+{"level":"info","message":"Retrieved 4 products","timestamp":"2024-07-31T21:22:13.067Z"}
+{"$__":{"$options":{"defaults":true},"$setCalled":{},"_id":"66aaab0d559793408c3f67f0","activePaths":{"paths":{"name":"require","price":"require","stock":"require"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{},"modify":{},"require":{"name":true,"price":true,"stock":true}}},"backup":{"activePaths":{"default":{"_id":true},"modify":{"name":true,"price":true,"stock":true}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"inserting":true,"pathsToScopes":{},"savedState":{},"session":null,"strictMode":true,"validating":null,"wasPopulated":false},"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66aaab0d559793408c3f67f0","name":"pain aux raisins","price":1,"stock":100},"isNew":false,"level":"info","message":"New product created:","timestamp":"2024-07-31T21:22:21.080Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-07-31T21:22:21.110Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-07-31T21:22:28.097Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-07-31T21:22:28.163Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-07-31T21:22:49.672Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-07-31T21:22:49.701Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-07-31T21:22:49.731Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-07-31T21:22:49.747Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-07-31T21:22:49.760Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-07-31T21:22:49.774Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-07-31T21:22:49.800Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-07-31T21:22:49.813Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-07-31T21:24:09.788Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-07-31T21:24:13.905Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-07-31T21:24:13.934Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-07-31T21:24:13.951Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-07-31T21:24:13.968Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-07-31T21:24:13.979Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-07-31T21:24:13.993Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-07-31T21:24:14.012Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-07-31T21:24:14.044Z"}
+{"$__":{"$options":{"defaults":true},"$setCalled":{},"_id":"66aaab83559793408c3f6806","activePaths":{"paths":{"name":"require","price":"require","stock":"require"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{},"modify":{},"require":{"name":true,"price":true,"stock":true}}},"backup":{"activePaths":{"default":{"_id":true},"modify":{"name":true,"price":true,"stock":true}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"inserting":true,"pathsToScopes":{},"savedState":{},"session":null,"strictMode":true,"validating":null,"wasPopulated":false},"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66aaab83559793408c3f6806","name":"pain aux raisins","price":1,"stock":100},"isNew":false,"level":"info","message":"New product created:","timestamp":"2024-07-31T21:24:19.616Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-07-31T21:24:19.635Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-07-31T21:24:23.148Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-07-31T21:33:58.942Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-07-31T21:33:58.977Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-07-31T21:34:22.940Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-07-31T21:34:22.963Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-07-31T21:35:02.456Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-07-31T21:35:02.477Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-07-31T21:35:02.494Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-07-31T21:35:02.515Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-07-31T21:35:02.564Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-07-31T21:35:02.576Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-07-31T21:35:02.584Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-07-31T21:35:02.593Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-07-31T21:36:25.983Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-07-31T21:37:54.789Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-07-31T21:37:54.805Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-07-31T21:37:54.829Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-07-31T21:37:54.839Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-07-31T21:39:12.531Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-07-31T21:39:12.544Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-07-31T21:39:12.563Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-07-31T21:39:12.575Z"}
+{"$__":{"$options":{"defaults":true},"$setCalled":{},"_id":"66aaaf05559793408c3f681f","activePaths":{"paths":{"name":"require","price":"require","stock":"require"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{},"modify":{},"require":{"name":true,"price":true,"stock":true}}},"backup":{"activePaths":{"default":{"_id":true},"modify":{"name":true,"price":true,"stock":true}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"inserting":true,"pathsToScopes":{},"savedState":{},"session":null,"strictMode":true,"validating":null,"wasPopulated":false},"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66aaaf05559793408c3f681f","name":"pain aux raisins","price":1,"stock":100},"isNew":false,"level":"info","message":"New product created:","timestamp":"2024-07-31T21:39:17.091Z"}
+{"level":"info","message":"Retrieved 7 products","timestamp":"2024-07-31T21:39:17.108Z"}
+{"level":"info","message":"Retrieved 7 products","timestamp":"2024-07-31T21:39:19.884Z"}
+{"level":"info","message":"Retrieved 7 products","timestamp":"2024-07-31T21:39:21.954Z"}
+{"level":"info","message":"Retrieved 7 products","timestamp":"2024-07-31T21:39:22.675Z"}
+{"$__":{"$options":{"defaults":true,"isNew":false,"skipId":true,"willInit":true},"$setCalled":{},"_id":"66aaa5ee559793408c3f67cf","activePaths":{"paths":{"__v":"init","_id":"init","name":"init","price":"init","stock":"init"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{"__v":true,"_id":true,"name":true,"price":true,"stock":true},"modify":{},"require":{}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"pathsToScopes":{},"session":null,"strictMode":true,"wasPopulated":false},"$init":true,"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66aaa5ee559793408c3f67cf","name":"pain aux raisins","price":1,"stock":100},"isNew":false,"level":"info","message":"Product deleted successfully:","timestamp":"2024-07-31T21:39:26.546Z"}
+{"$__":{"$options":{"defaults":true,"isNew":false,"skipId":true,"willInit":true},"$setCalled":{},"_id":"66aaa5fa559793408c3f67d2","activePaths":{"paths":{"__v":"init","_id":"init","name":"init","price":"init","stock":"init"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{"__v":true,"_id":true,"name":true,"price":true,"stock":true},"modify":{},"require":{}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"pathsToScopes":{},"session":null,"strictMode":true,"wasPopulated":false},"$init":true,"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66aaa5fa559793408c3f67d2","name":"pain aux raisins","price":1,"stock":100},"isNew":false,"level":"info","message":"Product deleted successfully:","timestamp":"2024-07-31T21:39:27.489Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-07-31T21:40:04.783Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-07-31T21:40:04.794Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-07-31T21:40:50.581Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-07-31T21:40:50.620Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-07-31T21:40:50.644Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-07-31T21:40:50.659Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-07-31T21:42:27.814Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-07-31T21:42:27.829Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-07-31T21:42:27.840Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-07-31T21:42:27.849Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-07-31T21:46:46.270Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-07-31T21:46:46.325Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-07-31T21:50:28.087Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-07-31T21:50:28.119Z"}
+{"level":"info","message":"Server started on port 50687","timestamp":"2024-08-01T10:13:11.669Z"}
+{"level":"info","message":"Port 50687 written to C:\\Users\\sebas\\boulangerie-app\\port.txt","timestamp":"2024-08-01T10:13:11.681Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-08-01T10:22:36.442Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-08-01T10:22:36.634Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-08-01T10:29:51.343Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-08-01T10:29:51.362Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-08-01T10:30:03.128Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-08-01T10:30:03.844Z"}
+{"$__":{"$options":{"defaults":true},"$setCalled":{},"_id":"66ab63cb4c43ea25387f470c","activePaths":{"paths":{"costPrice":"require","name":"require","price":"require","stock":"require"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{},"modify":{},"require":{"costPrice":true,"name":true,"price":true,"stock":true}}},"backup":{"activePaths":{"default":{"_id":true},"modify":{"costPrice":true,"name":true,"price":true,"stock":true}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"inserting":true,"pathsToScopes":{},"savedState":{},"session":null,"strictMode":true,"validating":null,"wasPopulated":false},"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66ab63cb4c43ea25387f470c","costPrice":1,"name":"pain aux raisins","price":1,"stock":100},"isNew":false,"level":"info","message":"New product created:","timestamp":"2024-08-01T10:30:35.448Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T10:30:35.463Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T10:33:04.901Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T10:33:05.060Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T10:35:01.390Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T10:35:01.497Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T10:36:56.059Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T10:36:56.134Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T10:37:03.985Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T10:37:04.159Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T10:39:20.393Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T10:39:20.428Z"}
+{"level":"info","message":"Server started on port 50687","timestamp":"2024-08-01T10:42:06.832Z"}
+{"level":"info","message":"Port 50687 written to C:\\Users\\sebas\\boulangerie-app\\port.txt","timestamp":"2024-08-01T10:42:06.845Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T10:42:42.487Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T10:42:42.543Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T10:44:25.989Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T10:44:26.017Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T10:54:44.069Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T10:54:44.100Z"}
+{"$__":{"$options":{"defaults":true,"isNew":false,"skipId":true,"willInit":true},"$setCalled":{},"_id":"66aaa6ee559793408c3f67df","activePaths":{"paths":{"__v":"init","_id":"init","costPrice":"require","name":"init","price":"init","stock":"init"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{"__v":true,"_id":true,"name":true,"price":true,"stock":true},"modify":{},"require":{"costPrice":true}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"pathsToScopes":{},"session":null,"strictMode":true,"wasPopulated":false},"$init":true,"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66aaa6ee559793408c3f67df","name":"pain aux raisins","price":1,"stock":100},"isNew":false,"level":"info","message":"Product deleted successfully:","timestamp":"2024-08-01T10:55:33.446Z"}
+{"level":"warn","message":"Product not found for deletion: 66aaa6ee559793408c3f67df","timestamp":"2024-08-01T10:55:34.131Z"}
+{"level":"warn","message":"Product not found for deletion: 66aaa6ee559793408c3f67df","timestamp":"2024-08-01T10:55:35.288Z"}
+{"level":"warn","message":"Product not found for deletion: 66aaa6ee559793408c3f67df","timestamp":"2024-08-01T10:55:35.783Z"}
+{"$__":{"$options":{"defaults":true,"isNew":false,"skipId":true,"willInit":true},"$setCalled":{},"_id":"66aaaa04559793408c3f67eb","activePaths":{"paths":{"__v":"init","_id":"init","costPrice":"require","name":"init","price":"init","stock":"init"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{"__v":true,"_id":true,"name":true,"price":true,"stock":true},"modify":{},"require":{"costPrice":true}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"pathsToScopes":{},"session":null,"strictMode":true,"wasPopulated":false},"$init":true,"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66aaaa04559793408c3f67eb","name":"pain aux raisins","price":1,"stock":100},"isNew":false,"level":"info","message":"Product deleted successfully:","timestamp":"2024-08-01T10:55:36.565Z"}
+{"level":"info","message":"Retrieved 4 products","timestamp":"2024-08-01T10:57:58.471Z"}
+{"level":"info","message":"Retrieved 4 products","timestamp":"2024-08-01T10:57:58.492Z"}
+{"$__":{"$options":{"defaults":true,"isNew":false,"skipId":true,"willInit":true},"$setCalled":{},"_id":"66aaab0d559793408c3f67f0","activePaths":{"paths":{"__v":"init","_id":"init","costPrice":"require","name":"init","price":"init","stock":"init"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{"__v":true,"_id":true,"name":true,"price":true,"stock":true},"modify":{},"require":{"costPrice":true}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"pathsToScopes":{},"session":null,"strictMode":true,"wasPopulated":false},"$init":true,"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66aaab0d559793408c3f67f0","name":"pain aux raisins","price":1,"stock":100},"isNew":false,"level":"info","message":"Product deleted successfully:","timestamp":"2024-08-01T10:58:03.313Z"}
+{"level":"warn","message":"Product not found for deletion: 66aaab0d559793408c3f67f0","timestamp":"2024-08-01T10:58:03.879Z"}
+{"$__":{"$options":{"defaults":true,"isNew":false,"skipId":true,"willInit":true},"$setCalled":{},"_id":"66ab63cb4c43ea25387f470c","activePaths":{"paths":{"__v":"init","_id":"init","costPrice":"init","name":"init","price":"init","stock":"init"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{"__v":true,"_id":true,"costPrice":true,"name":true,"price":true,"stock":true},"modify":{},"require":{}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"pathsToScopes":{},"session":null,"strictMode":true,"wasPopulated":false},"$init":true,"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66ab63cb4c43ea25387f470c","costPrice":1,"name":"pain aux raisins","price":1,"stock":100},"isNew":false,"level":"info","message":"Product deleted successfully:","timestamp":"2024-08-01T10:58:40.019Z"}
+{"level":"warn","message":"Product not found for deletion: 66ab63cb4c43ea25387f470c","timestamp":"2024-08-01T10:58:40.539Z"}
+{"level":"warn","message":"Product not found for deletion: 66ab63cb4c43ea25387f470c","timestamp":"2024-08-01T10:58:40.950Z"}
+{"level":"info","message":"Retrieved 2 products","timestamp":"2024-08-01T10:59:04.794Z"}
+{"level":"info","message":"Retrieved 2 products","timestamp":"2024-08-01T10:59:09.827Z"}
+{"level":"info","message":"Retrieved 2 products","timestamp":"2024-08-01T10:59:09.845Z"}
+{"$__":{"$options":{"defaults":true,"isNew":false,"skipId":true,"willInit":true},"$setCalled":{},"_id":"66aaab83559793408c3f6806","activePaths":{"paths":{"__v":"init","_id":"init","costPrice":"require","name":"init","price":"init","stock":"init"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{"__v":true,"_id":true,"name":true,"price":true,"stock":true},"modify":{},"require":{"costPrice":true}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"pathsToScopes":{},"session":null,"strictMode":true,"wasPopulated":false},"$init":true,"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66aaab83559793408c3f6806","name":"pain aux raisins","price":1,"stock":100},"isNew":false,"level":"info","message":"Product deleted successfully:","timestamp":"2024-08-01T10:59:12.183Z"}
+{"level":"warn","message":"Product not found for deletion: 66aaab83559793408c3f6806","timestamp":"2024-08-01T10:59:12.799Z"}
+{"level":"info","message":"Retrieved 1 products","timestamp":"2024-08-01T10:59:32.180Z"}
+{"level":"info","message":"Retrieved 1 products","timestamp":"2024-08-01T10:59:32.291Z"}
+{"$__":{"$options":{"defaults":true,"isNew":false,"skipId":true,"willInit":true},"$setCalled":{},"_id":"66aaaf05559793408c3f681f","activePaths":{"paths":{"__v":"init","_id":"init","costPrice":"require","name":"init","price":"init","stock":"init"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{"__v":true,"_id":true,"name":true,"price":true,"stock":true},"modify":{},"require":{"costPrice":true}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"pathsToScopes":{},"session":null,"strictMode":true,"wasPopulated":false},"$init":true,"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66aaaf05559793408c3f681f","name":"pain aux raisins","price":1,"stock":100},"isNew":false,"level":"info","message":"Product deleted successfully:","timestamp":"2024-08-01T10:59:35.535Z"}
+{"level":"warn","message":"Product not found for deletion: 66aaaf05559793408c3f681f","timestamp":"2024-08-01T10:59:39.984Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-08-01T11:01:15.788Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-08-01T11:01:38.211Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-08-01T11:01:38.241Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-08-01T11:01:57.196Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-08-01T11:03:41.896Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-08-01T11:03:41.925Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-08-01T11:09:22.909Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-08-01T11:09:22.933Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-08-01T11:11:22.623Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-08-01T11:11:22.636Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-08-01T11:14:04.488Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-08-01T11:14:04.518Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-08-01T11:19:03.002Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-08-01T11:19:03.038Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-08-01T11:23:01.870Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-08-01T11:23:01.909Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-08-01T11:32:02.842Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-08-01T11:32:02.914Z"}

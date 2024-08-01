@@ -2,12 +2,12 @@ import { useState, useEffect, useCallback, useMemo } from 'react';
 import axios from 'axios';
 
 const useProductList = () => {
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(null);
   const [products, setProducts] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
   const [nameFilter, setNameFilter] = useState('');
   const [maxPriceFilter, setMaxPriceFilter] = useState('');
-  const [sortOrder, setSortOrder] = useState('');
+  const [sortOrder, setSortOrder] = useState('asc');
   const [deletingProductId, setDeletingProductId] = useState(null);
 
   const fetchProducts = useCallback(async () => {
@@ -15,11 +15,13 @@ const useProductList = () => {
     setError(null);
     try {
       const response = await axios.get('http://localhost:50687/products');
-      console.log('Réponse reçue:', response.data);
-      setProducts(response.data);
-    } catch (error) {
-      console.error('Erreur lors de la récupération des produits:', error);
-      setError(error.message || 'Une erreur est survenue lors de la récupération des produits');
+      const validatedProducts = response.data.map(product => ({
+        ...product,
+        costPrice: product.costPrice !== undefined ? product.costPrice : 0, // Assurer que costPrice est défini
+      }));
+      setProducts(validatedProducts);
+    } catch (err) {
+      setError('Erreur lors du chargement des produits');
     } finally {
       setLoading(false);
     }
@@ -29,36 +31,40 @@ const useProductList = () => {
     fetchProducts();
   }, [fetchProducts]);
 
-  const handleMaxPriceChange = useCallback((e) => {
-    const value = e.target.value;
-    setMaxPriceFilter(value === '' ? '' : Number(value));
+  const handleProductAdded = useCallback((newProduct) => {
+    const validatedProduct = {
+      ...newProduct,
+      costPrice: newProduct.costPrice !== undefined ? newProduct.costPrice : 0, // Assurer que costPrice est défini
+    };
+    setProducts((prevProducts) => [...prevProducts, validatedProduct]);
   }, []);
 
-  const handleDeleteProduct = useCallback(async (productId) => {
-    setDeletingProductId(productId);
+  const handleDeleteProduct = useCallback(async (id) => {
+    setDeletingProductId(id);
     try {
-      await axios.delete(`http://localhost:50687/products/${productId}`);
-      setProducts(prevProducts => prevProducts.filter(product => product._id !== productId));
+      console.log(`Suppression du produit avec l'ID : ${id}`);
+      const response = await axios.delete(`http://localhost:50687/products/${id}`);
+      console.log(`Réponse de l'API :`, response);
+      setProducts((prevProducts) => prevProducts.filter(product => product._id !== id));
     } catch (err) {
-      setError(err.message || 'Une erreur est survenue lors de la suppression du produit');
+      setError(`Erreur lors de la suppression du produit : ${err.message}`);
+      console.error('Erreur lors de la suppression du produit :', err);
     } finally {
       setDeletingProductId(null);
     }
   }, []);
 
-  const handleProductAdded = useCallback((newProduct) => {
-    setProducts((prevProducts) => [...prevProducts, newProduct]);
+  const handleMaxPriceChange = useCallback((e) => {
+    setMaxPriceFilter(e.target.value);
   }, []);
 
   const filteredAndSortedProducts = useMemo(() => {
     return products
-      .filter(product => product.name.toLowerCase().includes(nameFilter.toLowerCase()))
-      .filter(product => maxPriceFilter === '' || product.price <= maxPriceFilter)
-      .sort((a, b) => {
-        if (sortOrder === 'asc') return a.price - b.price;
-        if (sortOrder === 'desc') return b.price - a.price;
-        return 0;
-      });
+      .filter(product => 
+        product.name.toLowerCase().includes(nameFilter.toLowerCase()) && 
+        (maxPriceFilter === '' || product.price <= parseFloat(maxPriceFilter))
+      )
+      .sort((a, b) => (sortOrder === 'asc' ? a.price - b.price : b.price - a.price));
   }, [products, nameFilter, maxPriceFilter, sortOrder]);
 
   return {
@@ -72,8 +78,8 @@ const useProductList = () => {
     setNameFilter,
     handleMaxPriceChange,
     setSortOrder,
-    handleDeleteProduct,
     handleProductAdded,
+    handleDeleteProduct,
     fetchProducts
   };
 };

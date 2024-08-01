@@ -1,86 +1,80 @@
-import React, { memo, useEffect } from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 import '../styles/ProductList.css';
-import useProductList from '../hooks/useProductList';
 
-const ProductList = () => {
-  const {
-    loading,
-    error,
-    nameFilter,
-    maxPriceFilter,
-    sortOrder,
-    filteredAndSortedProducts,
-    deletingProductId,
-    setNameFilter,
-    handleMaxPriceChange,
-    setSortOrder,
-    handleDeleteProduct,
-    fetchProducts
-  } = useProductList();
-
-  useEffect(() => {
-    fetchProducts();
-  }, [fetchProducts]);
-
-  if (loading) return <div className="loading">Chargement...</div>;
-  if (error) {
-    console.error('Erreur détectée:', error); // Log l'erreur pour plus de détails
-    return (
-      <div className="error">
-        Erreur : {error.message || 'Une erreur est survenue.'}
-        <button onClick={fetchProducts}>Réessayer</button>
-      </div>
-    );
-  }
-
-  console.log('Produits filtrés et triés:', filteredAndSortedProducts); // Ajoutez ce log
-
+const ProductList = ({
+  products,
+  loading,
+  error,
+  nameFilter,
+  maxPriceFilter,
+  sortOrder,
+  deletingProductId,
+  onDeleteProduct,
+  onNameFilterChange,
+  onMaxPriceFilterChange,
+  onSortOrderChange,
+  onRefresh
+}) => {
   return (
     <div className="product-list">
+      <h2>Liste des Produits</h2>
+      {loading && <p>Chargement des produits...</p>}
+      {error && <p className="error-message">{error}</p>}
       <div className="filters">
-        <label htmlFor="name-filter">Filtrer par nom:</label>
         <input
-          id="name-filter"
           type="text"
+          placeholder="Filtrer par nom"
           value={nameFilter}
-          onChange={(e) => setNameFilter(e.target.value)}
-          placeholder="Nom du produit"
+          onChange={(e) => onNameFilterChange(e.target.value)}
         />
-        <label htmlFor="price-filter">Prix maximum:</label>
         <input
-          id="price-filter"
           type="number"
+          placeholder="Prix max"
           value={maxPriceFilter}
-          onChange={handleMaxPriceChange}
-          placeholder="Prix maximum"
+          onChange={onMaxPriceFilterChange}
         />
-        <label htmlFor="sort-order">Trier par:</label>
-        <select id="sort-order" value={sortOrder} onChange={(e) => setSortOrder(e.target.value)}>
-          <option value="">Aucun tri</option>
-          <option value="asc">Prix : Croissant</option>
-          <option value="desc">Prix : Décroissant</option>
+        <select value={sortOrder} onChange={(e) => onSortOrderChange(e.target.value)}>
+          <option value="asc">Prix croissant</option>
+          <option value="desc">Prix décroissant</option>
         </select>
+        <button onClick={onRefresh}>Rafraîchir</button>
       </div>
-      {Array.isArray(filteredAndSortedProducts) && filteredAndSortedProducts.length === 0 ? (
-        <p>Aucun produit trouvé.</p>
-      ) : (
-        <ul>
-          {Array.isArray(filteredAndSortedProducts) && filteredAndSortedProducts.map((product) => (
-            <li key={product._id}>
-              {product.name} - {product.price.toFixed(2)}€
-              <button
-                onClick={() => handleDeleteProduct(product._id)}
-                disabled={deletingProductId === product._id}
-              >
-                {deletingProductId === product._id ? 'Suppression...' : 'Supprimer'}
-              </button>
-            </li>
-          ))}
-        </ul>
-      )}
-      <button onClick={fetchProducts}>Rafraîchir les produits</button>
+      <ul>
+        {products.map(product => (
+          <li key={product._id}>
+            <span>
+              {product.name} - Prix: {product.price}€
+              {product.costPrice !== undefined && ` - Prix de revient: ${product.costPrice}€`}
+            </span>
+            <button onClick={() => onDeleteProduct(product._id)} disabled={deletingProductId === product._id}>
+              {deletingProductId === product._id ? 'Suppression...' : 'Supprimer'}
+            </button>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 };
 
-export default memo(ProductList);
+ProductList.propTypes = {
+  products: PropTypes.arrayOf(PropTypes.shape({
+    _id: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    price: PropTypes.number.isRequired,
+    costPrice: PropTypes.number // Changé de .isRequired à optionnel
+  })).isRequired,
+  loading: PropTypes.bool.isRequired,
+  error: PropTypes.string,
+  nameFilter: PropTypes.string.isRequired,
+  maxPriceFilter: PropTypes.string.isRequired,
+  sortOrder: PropTypes.string.isRequired,
+  deletingProductId: PropTypes.string,
+  onDeleteProduct: PropTypes.func.isRequired,
+  onNameFilterChange: PropTypes.func.isRequired,
+  onMaxPriceFilterChange: PropTypes.func.isRequired,
+  onSortOrderChange: PropTypes.func.isRequired,
+  onRefresh: PropTypes.func.isRequired
+};
+
+export default ProductList;

@@ -64,7 +64,6 @@ const swaggerOptions = {
   },
   apis: ['./routes/*.js'], // chemin vers vos fichiers de routes
 };
-
 const swaggerDocs = swaggerJsDoc(swaggerOptions);
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocs));
 
@@ -79,6 +78,7 @@ console.log(`DB_PASSWORD: ${process.env.DB_PASSWORD ? '******' : 'Non défini'}`
 // Connect to MongoDB
 const mongoUri = `mongodb://${process.env.DB_USER}:${process.env.DB_PASSWORD}@${process.env.DB_HOST}:${process.env.DB_PORT}/${process.env.DB_NAME}?authSource=admin`;
 console.log(`Tentative de connexion à MongoDB: ${mongoUri.replace(/:([^:@]{1,})@/, ':****@')}`);
+
 mongoose.connect(mongoUri, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('Connecté à MongoDB'))
   .catch(err => {
@@ -90,12 +90,19 @@ mongoose.connect(mongoUri, { useNewUrlParser: true, useUnifiedTopology: true })
 const productSchema = new mongoose.Schema({
   name: { type: String, required: true },
   price: { type: Number, required: true, min: 0 },
-  stock: { type: Number, required: true, min: 0 },
+  costPrice: { type: Number, required: true, min: 0 },
 });
 
 const Product = mongoose.model('Product', productSchema);
 
+// Middleware de logging pour les requêtes
+app.use((req, res, next) => {
+  logger.info(`Requête reçue: ${req.method} ${req.url} - Corps: ${JSON.stringify(req.body)}`);
+  next();
+});
+
 // API routes
+
 /**
  * @swagger
  * /products:
@@ -132,13 +139,13 @@ app.get('/products', async (req, res) => {
  *             required:
  *               - name
  *               - price
- *               - stock
+ *               - costPrice
  *             properties:
  *               name:
  *                 type: string
  *               price:
  *                 type: number
- *               stock:
+ *               costPrice:
  *                 type: number
  *     responses:
  *       201:
@@ -147,12 +154,16 @@ app.get('/products', async (req, res) => {
  *         description: Bad request
  */
 app.post('/products', async (req, res) => {
-  const { name, price, stock } = req.body;
-  if (!name || typeof price !== 'number' || typeof stock !== 'number') {
+  const { name, price, costPrice } = req.body;
+  console.log('Données reçues:', req.body); // Log pour déboguer
+
+  if (!name || typeof price !== 'number' || typeof costPrice !== 'number' || price < 0 || costPrice < 0) {
+    console.log('Validation échouée:', { name, price, costPrice }); // Log pour déboguer
     return res.status(400).json({ message: 'Invalid product data' });
   }
+
   try {
-    const newProduct = new Product(req.body);
+    const newProduct = new Product({ name, price, costPrice });
     await newProduct.save();
     logger.info('New product created:', newProduct);
     res.status(201).json(newProduct);
@@ -182,14 +193,17 @@ app.post('/products', async (req, res) => {
  *         description: Server error
  */
 app.delete('/products/:id', async (req, res) => {
+  const productId = req.params.id;
+  console.log(`Tentative de suppression du produit avec l'ID: ${productId}`);
+  
   try {
-    const deletedProduct = await Product.findByIdAndDelete(req.params.id);
+    const deletedProduct = await Product.findByIdAndDelete(productId);
     if (!deletedProduct) {
-      logger.warn(`Product not found for deletion: ${req.params.id}`);
+      logger.warn(`Product not found for deletion: ${productId}`);
       return res.status(404).json({ message: 'Produit non trouvé' });
     }
     logger.info('Product deleted successfully:', deletedProduct);
-    res.json({ message: 'Produit supprimé avec succès' });
+    res.json({ message: 'Produit supprimé avec succès', deletedProduct });
   } catch (error) {
     logger.error('Error deleting product:', error);
     res.status(500).json({ message: 'Erreur lors de la suppression du produit', error: error.message });
@@ -199,9 +213,9 @@ app.delete('/products/:id', async (req, res) => {
 // Global error handler
 app.use((err, req, res, next) => {
   logger.error('Unhandled error:', err);
-  res.status(500).json({ 
-    message: 'Something went wrong!', 
-    error: process.env.NODE_ENV === 'production' ? {} : err.stack 
+  res.status(500).json({
+    message: 'Something went wrong!',
+    error: process.env.NODE_ENV === 'production' ? {} : err.stack
   });
 });
 
@@ -210,11 +224,18 @@ const PORT = process.env.PORT || 50787;
 const server = app.listen(PORT, () => {
   const actualPort = server.address().port;
   logger.info(`Server started on port ${actualPort}`);
-
   // Write port to file
   const portFile = path.join(__dirname, '..', 'port.txt');
   fs.writeFileSync(portFile, actualPort.toString(), 'utf8');
   logger.info(`Port ${actualPort} written to ${portFile}`);
+});
+
+// Graceful shutdown
+process.on('SIGINT', () => {
+  mongoose.connection.close(() => {
+    logger.info('MongoDB connection closed');
+    process.exit(0);
+  });
 });
 
 server.on('error', (e) => {
@@ -227,14 +248,6 @@ server.on('error', (e) => {
   } else {
     logger.error('Server error:', e);
   }
-});
-
-// Graceful shutdown
-process.on('SIGINT', () => {
-  mongoose.connection.close(() => {
-    logger.info('MongoDB connection closed');
-    process.exit(0);
-  });
 });
 
 module.exports = app;
