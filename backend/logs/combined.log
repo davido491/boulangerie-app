@@ -556,3 +556,182 @@
 {"level":"info","message":"Retrieved 0 products","timestamp":"2024-08-01T11:23:01.909Z"}
 {"level":"info","message":"Retrieved 0 products","timestamp":"2024-08-01T11:32:02.842Z"}
 {"level":"info","message":"Retrieved 0 products","timestamp":"2024-08-01T11:32:02.914Z"}
+{"level":"info","message":"Server started on port 50687","timestamp":"2024-08-01T17:24:48.514Z"}
+{"level":"info","message":"Port 50687 written to C:\\Users\\sebas\\boulangerie-app\\port.txt","timestamp":"2024-08-01T17:24:48.519Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T17:25:27.303Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-08-01T17:25:27.379Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T17:25:27.436Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-08-01T17:25:27.446Z"}
+{"level":"info","message":"Requête reçue: GET /favicon.ico - Corps: {}","timestamp":"2024-08-01T17:25:27.455Z"}
+{"level":"info","message":"Requête reçue: DELETE /products/66ab9ca8e7d9d712cc627cdc - Corps: {}","timestamp":"2024-08-01T17:25:32.854Z"}
+{"$__":{"$options":{"defaults":true,"isNew":false,"skipId":true,"willInit":true},"$setCalled":{},"_id":"66ab9ca8e7d9d712cc627cdc","activePaths":{"paths":{"__v":"init","_id":"init","costPrice":"init","name":"init","price":"init"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{"__v":true,"_id":true,"costPrice":true,"name":true,"price":true},"modify":{},"require":{}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"pathsToScopes":{},"session":null,"strictMode":true,"wasPopulated":false},"$init":true,"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66ab9ca8e7d9d712cc627cdc","costPrice":1,"name":"baguette","price":1,"stock":0},"isNew":false,"level":"info","message":"Product deleted successfully:","timestamp":"2024-08-01T17:25:32.889Z"}
+{"level":"info","message":"Requête reçue: POST /products - Corps: {\"name\":\"pain au chocolat\",\"price\":1,\"costPrice\":1}","timestamp":"2024-08-01T17:25:38.687Z"}
+{"$__":{"$options":{"defaults":true},"$setCalled":{},"_id":"66abc51287f55342b407dea5","activePaths":{"paths":{"costPrice":"require","name":"require","price":"require"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{},"modify":{},"require":{"costPrice":true,"name":true,"price":true}}},"backup":{"activePaths":{"default":{"_id":true},"modify":{"costPrice":true,"name":true,"price":true}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"inserting":true,"pathsToScopes":{},"savedState":{},"session":null,"strictMode":true,"validating":null,"wasPopulated":false},"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66abc51287f55342b407dea5","costPrice":1,"name":"pain au chocolat","price":1},"isNew":false,"level":"info","message":"New product created:","timestamp":"2024-08-01T17:25:38.791Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T17:25:43.076Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-08-01T17:25:43.086Z"}
+{"level":"info","message":"Server started on port 50687","timestamp":"2024-08-01T18:40:02.218Z"}
+{"level":"info","message":"Port 50687 written to C:\\Users\\sebas\\boulangerie-app\\port.txt","timestamp":"2024-08-01T18:40:02.226Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T18:40:20.651Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T18:40:20.723Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T18:40:20.741Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T18:40:20.749Z"}
+{"level":"info","message":"Requête reçue: GET /favicon.ico - Corps: {}","timestamp":"2024-08-01T18:40:21.641Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T18:41:04.772Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T18:41:04.778Z"}
+{"level":"info","message":"Requête reçue: POST /products - Corps: {\"name\":\"pain au chocolat\",\"price\":1,\"costPrice\":1}","timestamp":"2024-08-01T18:41:54.535Z"}
+{"$__":{"$options":{"defaults":true},"$setCalled":{},"_id":"66abd6f244a43b5b1c6b5ec9","activePaths":{"paths":{"costPrice":"require","name":"require","price":"require"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{},"modify":{},"require":{"costPrice":true,"name":true,"price":true}}},"backup":{"activePaths":{"default":{"_id":true},"modify":{"costPrice":true,"name":true,"price":true}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"inserting":true,"pathsToScopes":{},"savedState":{},"session":null,"strictMode":true,"validating":null,"wasPopulated":false},"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66abd6f244a43b5b1c6b5ec9","costPrice":1,"name":"pain au chocolat","price":1},"isNew":false,"level":"info","message":"New product created:","timestamp":"2024-08-01T18:41:54.600Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T18:41:56.101Z"}
+{"level":"info","message":"Retrieved 7 products","timestamp":"2024-08-01T18:41:56.117Z"}
+{"level":"info","message":"Requête reçue: DELETE /products/66ab9ebfe7d9d712cc627ce6 - Corps: {}","timestamp":"2024-08-01T18:41:57.773Z"}
+{"$__":{"$options":{"defaults":true,"isNew":false,"skipId":true,"willInit":true},"$setCalled":{},"_id":"66ab9ebfe7d9d712cc627ce6","activePaths":{"paths":{"__v":"init","_id":"init","costPrice":"init","name":"init","price":"init"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{"__v":true,"_id":true,"costPrice":true,"name":true,"price":true},"modify":{},"require":{}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"pathsToScopes":{},"session":null,"strictMode":true,"wasPopulated":false},"$init":true,"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66ab9ebfe7d9d712cc627ce6","costPrice":1,"name":"baguette","price":1,"stock":0},"isNew":false,"level":"info","message":"Product deleted successfully:","timestamp":"2024-08-01T18:41:57.791Z"}
+{"level":"info","message":"Requête reçue: DELETE /products/66aba026e7d9d712cc627cec - Corps: {}","timestamp":"2024-08-01T18:41:58.931Z"}
+{"$__":{"$options":{"defaults":true,"isNew":false,"skipId":true,"willInit":true},"$setCalled":{},"_id":"66aba026e7d9d712cc627cec","activePaths":{"paths":{"__v":"init","_id":"init","costPrice":"init","name":"init","price":"init"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{"__v":true,"_id":true,"costPrice":true,"name":true,"price":true},"modify":{},"require":{}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"pathsToScopes":{},"session":null,"strictMode":true,"wasPopulated":false},"$init":true,"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66aba026e7d9d712cc627cec","costPrice":1,"name":"baguette","price":1,"stock":0},"isNew":false,"level":"info","message":"Product deleted successfully:","timestamp":"2024-08-01T18:41:58.934Z"}
+{"level":"info","message":"Server started on port 50687","timestamp":"2024-08-01T18:45:34.726Z"}
+{"level":"info","message":"Port 50687 written to C:\\Users\\sebas\\boulangerie-app\\port.txt","timestamp":"2024-08-01T18:45:34.737Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T18:46:06.556Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-08-01T18:46:06.640Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T18:46:06.714Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-08-01T18:46:06.728Z"}
+{"level":"info","message":"Requête reçue: GET /favicon.ico - Corps: {}","timestamp":"2024-08-01T18:46:06.981Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:11:31.452Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-08-01T19:11:31.638Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:11:31.666Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-08-01T19:11:31.675Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:11:35.848Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-08-01T19:11:35.860Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:11:36.486Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-08-01T19:11:36.492Z"}
+{"level":"info","message":"Requête reçue: POST /products - Corps: {\"name\":\"pain au chocolat\",\"price\":1,\"costPrice\":1}","timestamp":"2024-08-01T19:11:38.759Z"}
+{"$__":{"$options":{"defaults":true},"$setCalled":{},"_id":"66abddea476f622d80bd8457","activePaths":{"paths":{"costPrice":"require","name":"require","price":"require"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{},"modify":{},"require":{"costPrice":true,"name":true,"price":true}}},"backup":{"activePaths":{"default":{"_id":true},"modify":{"costPrice":true,"name":true,"price":true}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"inserting":true,"pathsToScopes":{},"savedState":{},"session":null,"strictMode":true,"validating":null,"wasPopulated":false},"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66abddea476f622d80bd8457","costPrice":1,"name":"pain au chocolat","price":1},"isNew":false,"level":"info","message":"New product created:","timestamp":"2024-08-01T19:11:38.852Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:11:40.446Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T19:11:40.456Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:15:47.432Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T19:15:47.594Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:15:47.706Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T19:15:47.719Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:15:56.117Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T19:15:56.132Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:15:56.143Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T19:15:56.156Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:16:00.127Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T19:16:00.138Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:16:00.146Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T19:16:00.153Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:16:05.397Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T19:16:05.406Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:16:05.418Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T19:16:05.424Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:16:07.504Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T19:16:07.513Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:16:07.520Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T19:16:07.527Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:16:16.104Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T19:16:16.112Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:16:16.131Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T19:16:16.141Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:17:01.365Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T19:17:01.375Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:17:01.396Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T19:17:01.404Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:17:35.708Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T19:17:35.725Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:17:35.730Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T19:17:35.741Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:19:14.405Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T19:19:14.420Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:19:14.433Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T19:19:14.439Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:19:18.547Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T19:19:18.556Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:19:18.563Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T19:19:18.569Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:19:18.575Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T19:19:18.582Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:19:18.604Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T19:19:18.611Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:20:56.145Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T19:20:56.157Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:20:56.171Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T19:20:56.180Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:21:07.138Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T19:21:07.162Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:21:07.169Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T19:21:07.177Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:21:07.184Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T19:21:07.195Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:21:07.204Z"}
+{"level":"info","message":"Retrieved 6 products","timestamp":"2024-08-01T19:21:07.215Z"}
+{"level":"info","message":"Requête reçue: DELETE /products/66aba2c634b0a33840615e8d - Corps: {}","timestamp":"2024-08-01T19:21:08.647Z"}
+{"$__":{"$options":{"defaults":true,"isNew":false,"skipId":true,"willInit":true},"$setCalled":{},"_id":"66aba2c634b0a33840615e8d","activePaths":{"paths":{"__v":"init","_id":"init","costPrice":"init","name":"init","price":"init"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{"__v":true,"_id":true,"costPrice":true,"name":true,"price":true},"modify":{},"require":{}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"pathsToScopes":{},"session":null,"strictMode":true,"wasPopulated":false},"$init":true,"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66aba2c634b0a33840615e8d","costPrice":1,"name":"pain au chocolat","price":1,"stock":0},"isNew":false,"level":"info","message":"Product deleted successfully:","timestamp":"2024-08-01T19:21:08.703Z"}
+{"level":"info","message":"Requête reçue: DELETE /products/66abc51287f55342b407dea5 - Corps: {}","timestamp":"2024-08-01T19:21:09.464Z"}
+{"$__":{"$options":{"defaults":true,"isNew":false,"skipId":true,"willInit":true},"$setCalled":{},"_id":"66abc51287f55342b407dea5","activePaths":{"paths":{"__v":"init","_id":"init","costPrice":"init","name":"init","price":"init"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{"__v":true,"_id":true,"costPrice":true,"name":true,"price":true},"modify":{},"require":{}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"pathsToScopes":{},"session":null,"strictMode":true,"wasPopulated":false},"$init":true,"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66abc51287f55342b407dea5","costPrice":1,"name":"pain au chocolat","price":1},"isNew":false,"level":"info","message":"Product deleted successfully:","timestamp":"2024-08-01T19:21:09.470Z"}
+{"level":"info","message":"Requête reçue: POST /products - Corps: {\"name\":\"pain au chocolat\",\"price\":1,\"costPrice\":1}","timestamp":"2024-08-01T19:21:16.978Z"}
+{"$__":{"$options":{"defaults":true},"$setCalled":{},"_id":"66abe02c476f622d80bd8478","activePaths":{"paths":{"costPrice":"require","name":"require","price":"require"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{},"modify":{},"require":{"costPrice":true,"name":true,"price":true}}},"backup":{"activePaths":{"default":{"_id":true},"modify":{"costPrice":true,"name":true,"price":true}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"inserting":true,"pathsToScopes":{},"savedState":{},"session":null,"strictMode":true,"validating":null,"wasPopulated":false},"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66abe02c476f622d80bd8478","costPrice":1,"name":"pain au chocolat","price":1},"isNew":false,"level":"info","message":"New product created:","timestamp":"2024-08-01T19:21:16.999Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:21:22.920Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-08-01T19:21:22.927Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:21:22.939Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-08-01T19:21:22.948Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:24:37.750Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-08-01T19:24:37.769Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:24:37.780Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-08-01T19:24:37.792Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:28:14.185Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-08-01T19:28:14.234Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:29:04.765Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-08-01T19:29:04.790Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:29:04.813Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-08-01T19:29:04.825Z"}
+{"level":"info","message":"Requête reçue: DELETE /products/66aba2c634b0a33840615e8d - Corps: {}","timestamp":"2024-08-01T19:29:09.375Z"}
+{"level":"warn","message":"Product not found for deletion: 66aba2c634b0a33840615e8d","timestamp":"2024-08-01T19:29:09.390Z"}
+{"level":"info","message":"Requête reçue: DELETE /products/66aba2c634b0a33840615e8d - Corps: {}","timestamp":"2024-08-01T19:29:10.920Z"}
+{"level":"warn","message":"Product not found for deletion: 66aba2c634b0a33840615e8d","timestamp":"2024-08-01T19:29:10.926Z"}
+{"level":"info","message":"Requête reçue: DELETE /products/66aba2c634b0a33840615e8d - Corps: {}","timestamp":"2024-08-01T19:29:11.437Z"}
+{"level":"warn","message":"Product not found for deletion: 66aba2c634b0a33840615e8d","timestamp":"2024-08-01T19:29:11.443Z"}
+{"level":"info","message":"Requête reçue: DELETE /products/66aba2c634b0a33840615e8d - Corps: {}","timestamp":"2024-08-01T19:29:11.780Z"}
+{"level":"warn","message":"Product not found for deletion: 66aba2c634b0a33840615e8d","timestamp":"2024-08-01T19:29:11.783Z"}
+{"level":"info","message":"Requête reçue: DELETE /products/66aba2c634b0a33840615e8d - Corps: {}","timestamp":"2024-08-01T19:29:12.066Z"}
+{"level":"warn","message":"Product not found for deletion: 66aba2c634b0a33840615e8d","timestamp":"2024-08-01T19:29:12.070Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:29:19.517Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-08-01T19:29:19.531Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:29:19.544Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-08-01T19:29:19.552Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:29:31.087Z"}
+{"level":"info","message":"Retrieved 5 products","timestamp":"2024-08-01T19:29:31.091Z"}
+{"level":"info","message":"Requête reçue: DELETE /products/66abc9576064742dbcd281b2 - Corps: {}","timestamp":"2024-08-01T19:29:33.424Z"}
+{"$__":{"$options":{"defaults":true,"isNew":false,"skipId":true,"willInit":true},"$setCalled":{},"_id":"66abc9576064742dbcd281b2","activePaths":{"paths":{"__v":"init","_id":"init","costPrice":"require","name":"init","price":"init"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{"__v":true,"_id":true,"name":true,"price":true},"modify":{},"require":{"costPrice":true}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"pathsToScopes":{},"session":null,"strictMode":true,"wasPopulated":false},"$init":true,"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66abc9576064742dbcd281b2","name":"pain aux raisins","price":1,"stock":100},"isNew":false,"level":"info","message":"Product deleted successfully:","timestamp":"2024-08-01T19:29:33.430Z"}
+{"level":"info","message":"Requête reçue: DELETE /products/66abc95b6064742dbcd281b4 - Corps: {}","timestamp":"2024-08-01T19:29:34.576Z"}
+{"$__":{"$options":{"defaults":true,"isNew":false,"skipId":true,"willInit":true},"$setCalled":{},"_id":"66abc95b6064742dbcd281b4","activePaths":{"paths":{"__v":"init","_id":"init","costPrice":"require","name":"init","price":"init"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{"__v":true,"_id":true,"name":true,"price":true},"modify":{},"require":{"costPrice":true}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"pathsToScopes":{},"session":null,"strictMode":true,"wasPopulated":false},"$init":true,"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66abc95b6064742dbcd281b4","name":"pain aux raisins","price":1,"stock":100},"isNew":false,"level":"info","message":"Product deleted successfully:","timestamp":"2024-08-01T19:29:34.582Z"}
+{"level":"info","message":"Requête reçue: DELETE /products/66abd6f244a43b5b1c6b5ec9 - Corps: {}","timestamp":"2024-08-01T19:29:36.213Z"}
+{"$__":{"$options":{"defaults":true,"isNew":false,"skipId":true,"willInit":true},"$setCalled":{},"_id":"66abd6f244a43b5b1c6b5ec9","activePaths":{"paths":{"__v":"init","_id":"init","costPrice":"init","name":"init","price":"init"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{"__v":true,"_id":true,"costPrice":true,"name":true,"price":true},"modify":{},"require":{}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"pathsToScopes":{},"session":null,"strictMode":true,"wasPopulated":false},"$init":true,"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66abd6f244a43b5b1c6b5ec9","costPrice":1,"name":"pain au chocolat","price":1},"isNew":false,"level":"info","message":"Product deleted successfully:","timestamp":"2024-08-01T19:29:36.220Z"}
+{"level":"info","message":"Requête reçue: DELETE /products/66abddea476f622d80bd8457 - Corps: {}","timestamp":"2024-08-01T19:29:37.169Z"}
+{"$__":{"$options":{"defaults":true,"isNew":false,"skipId":true,"willInit":true},"$setCalled":{},"_id":"66abddea476f622d80bd8457","activePaths":{"paths":{"__v":"init","_id":"init","costPrice":"init","name":"init","price":"init"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{"__v":true,"_id":true,"costPrice":true,"name":true,"price":true},"modify":{},"require":{}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"pathsToScopes":{},"session":null,"strictMode":true,"wasPopulated":false},"$init":true,"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66abddea476f622d80bd8457","costPrice":1,"name":"pain au chocolat","price":1},"isNew":false,"level":"info","message":"Product deleted successfully:","timestamp":"2024-08-01T19:29:37.176Z"}
+{"level":"info","message":"Requête reçue: DELETE /products/66abe02c476f622d80bd8478 - Corps: {}","timestamp":"2024-08-01T19:29:37.936Z"}
+{"$__":{"$options":{"defaults":true,"isNew":false,"skipId":true,"willInit":true},"$setCalled":{},"_id":"66abe02c476f622d80bd8478","activePaths":{"paths":{"__v":"init","_id":"init","costPrice":"init","name":"init","price":"init"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{"__v":true,"_id":true,"costPrice":true,"name":true,"price":true},"modify":{},"require":{}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"pathsToScopes":{},"session":null,"strictMode":true,"wasPopulated":false},"$init":true,"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66abe02c476f622d80bd8478","costPrice":1,"name":"pain au chocolat","price":1},"isNew":false,"level":"info","message":"Product deleted successfully:","timestamp":"2024-08-01T19:29:37.942Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:29:39.976Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-08-01T19:29:39.986Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:29:39.995Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-08-01T19:29:40.013Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:30:43.139Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-08-01T19:30:43.179Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:30:43.186Z"}
+{"level":"info","message":"Retrieved 0 products","timestamp":"2024-08-01T19:30:43.192Z"}
+{"level":"info","message":"Requête reçue: POST /products - Corps: {\"name\":\"pain au chocolat\",\"price\":1,\"costPrice\":1}","timestamp":"2024-08-01T19:30:54.216Z"}
+{"$__":{"$options":{"defaults":true},"$setCalled":{},"_id":"66abe26e476f622d80bd8492","activePaths":{"paths":{"costPrice":"require","name":"require","price":"require"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{},"modify":{},"require":{"costPrice":true,"name":true,"price":true}}},"backup":{"activePaths":{"default":{"_id":true},"modify":{"costPrice":true,"name":true,"price":true}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"inserting":true,"pathsToScopes":{},"savedState":{},"session":null,"strictMode":true,"validating":null,"wasPopulated":false},"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66abe26e476f622d80bd8492","costPrice":1,"name":"pain au chocolat","price":1},"isNew":false,"level":"info","message":"New product created:","timestamp":"2024-08-01T19:30:54.280Z"}
+{"level":"info","message":"Requête reçue: POST /products - Corps: {\"name\":\"croissant\",\"price\":1.5,\"costPrice\":1}","timestamp":"2024-08-01T19:31:22.975Z"}
+{"$__":{"$options":{"defaults":true},"$setCalled":{},"_id":"66abe28a476f622d80bd8494","activePaths":{"paths":{"costPrice":"require","name":"require","price":"require"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{},"modify":{},"require":{"costPrice":true,"name":true,"price":true}}},"backup":{"activePaths":{"default":{"_id":true},"modify":{"costPrice":true,"name":true,"price":true}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"inserting":true,"pathsToScopes":{},"savedState":{},"session":null,"strictMode":true,"validating":null,"wasPopulated":false},"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66abe28a476f622d80bd8494","costPrice":1,"name":"croissant","price":1.5},"isNew":false,"level":"info","message":"New product created:","timestamp":"2024-08-01T19:31:22.990Z"}
+{"level":"info","message":"Requête reçue: POST /products - Corps: {\"name\":\"pain complet\",\"price\":3,\"costPrice\":1.2}","timestamp":"2024-08-01T19:31:39.962Z"}
+{"$__":{"$options":{"defaults":true},"$setCalled":{},"_id":"66abe29b476f622d80bd8496","activePaths":{"paths":{"costPrice":"require","name":"require","price":"require"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{},"modify":{},"require":{"costPrice":true,"name":true,"price":true}}},"backup":{"activePaths":{"default":{"_id":true},"modify":{"costPrice":true,"name":true,"price":true}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"inserting":true,"pathsToScopes":{},"savedState":{},"session":null,"strictMode":true,"validating":null,"wasPopulated":false},"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66abe29b476f622d80bd8496","costPrice":1.2,"name":"pain complet","price":3},"isNew":false,"level":"info","message":"New product created:","timestamp":"2024-08-01T19:31:39.971Z"}
+{"level":"info","message":"Requête reçue: POST /products - Corps: {\"name\":\"brioche\",\"price\":3.5,\"costPrice\":1.5}","timestamp":"2024-08-01T19:31:58.990Z"}
+{"$__":{"$options":{"defaults":true},"$setCalled":{},"_id":"66abe2af476f622d80bd8498","activePaths":{"paths":{"costPrice":"require","name":"require","price":"require"},"stateNames":["require","modify","init","default","ignore"],"states":{"default":{},"ignore":{},"init":{},"modify":{},"require":{"costPrice":true,"name":true,"price":true}}},"backup":{"activePaths":{"default":{"_id":true},"modify":{"costPrice":true,"name":true,"price":true}}},"cachedRequired":{},"emitter":{"_events":{},"_eventsCount":0,"_maxListeners":0},"getters":{},"inserting":true,"pathsToScopes":{},"savedState":{},"session":null,"strictMode":true,"validating":null,"wasPopulated":false},"$locals":{},"$op":null,"_doc":{"__v":0,"_id":"66abe2af476f622d80bd8498","costPrice":1.5,"name":"brioche","price":3.5},"isNew":false,"level":"info","message":"New product created:","timestamp":"2024-08-01T19:31:59.019Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:32:02.908Z"}
+{"level":"info","message":"Retrieved 4 products","timestamp":"2024-08-01T19:32:02.922Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:32:02.931Z"}
+{"level":"info","message":"Retrieved 4 products","timestamp":"2024-08-01T19:32:02.946Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:32:27.159Z"}
+{"level":"info","message":"Retrieved 4 products","timestamp":"2024-08-01T19:32:27.165Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:32:27.174Z"}
+{"level":"info","message":"Retrieved 4 products","timestamp":"2024-08-01T19:32:27.178Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:32:29.507Z"}
+{"level":"info","message":"Retrieved 4 products","timestamp":"2024-08-01T19:32:29.515Z"}
+{"level":"info","message":"Requête reçue: GET /products - Corps: {}","timestamp":"2024-08-01T19:32:29.539Z"}
+{"level":"info","message":"Retrieved 4 products","timestamp":"2024-08-01T19:32:29.547Z"}
